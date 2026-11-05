@@ -41,13 +41,13 @@ Unlike commercial tools that wrap third-party Large Language Models (LLMs), Turn
 
 ## 🧭 The 5 Academic Features & Tools
 
-TurnHuman CE features 5 dedicated workstations accessible via the modern interactive sidebar:
+TurnHuman CE features 5 dedicated tools accessible via the modern interactive sidebar:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                      TURNHUMAN CE WORKSPACE SUITE                      │
 ├────────────────────────┬───────────────────────────────────────────────┤
-│ 1. Text & Doc Humanizer│ Pipeline for .docx, .tex, and text.  │
+│ 1. Text & Doc Humanizer│ Pipeline for .docx, .tex, and text.           │
 │ 2. Code Humanizer      │ Naturalizes comments; keeps code 100% intact. │
 │ 3. Citation Inserter   │ Official CrossRef DOI resolver & BibTeX/APA.  │
 │ 4. ZipPy Entropy Check │ Compression-based AI entropy & perplexity scan│
