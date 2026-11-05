@@ -1,0 +1,52 @@
+{
+  "project": {
+    "name": "TurnHuman Community Edition",
+    "version": "3.1.0",
+    "target_python": "3.14.8",
+    "supported_languages": ["en", "id"],
+    "default_language": "en"
+  },
+  "server": {
+    "default_port": 8501,
+    "secondary_port": 8502,
+    "fallback_port_range": [8503, 8600],
+    "bind_address": "127.0.0.1"
+  },
+  "nlp": {
+    "spacy_model_en": "en_core_web_sm",
+    "spacy_model_multilingual": "xx_ent_wiki_sm",
+    "fallback_mode": "regex",
+    "lazy_loading": true
+  },
+  "word_budget_controller": {
+    "zero_expansion_disabled_stages": [7, 10, 11, 13, 14],
+    "default_mode": "full",
+    "strict_tolerance": 0
+  },
+  "pipeline": {
+    "default_synonym_probability": 0.8,
+    "min_synonym_probability": 0.5,
+    "max_synonym_probability": 1.0,
+    "ngram_chain_break_length": 5,
+    "max_sentence_length_split": 25,
+    "short_sentence_fuse_max_words": 10,
+    "latency_benchmark_max_ms": 150
+  },
+  "similarity": {
+    "winnowing": {
+      "k": 5,
+      "w": 4
+    },
+    "ngram_contiguous_length": 5
+  },
+  "rate_limits": {
+    "max_requests_per_minute": 30,
+    "max_file_size_mb": 10,
+    "max_batch_size_mb": 50,
+    "crossref_max_queries_per_minute": 50
+  },
+  "storage": {
+    "zero_retention": true,
+    "in_memory_only": true
+  }
+}

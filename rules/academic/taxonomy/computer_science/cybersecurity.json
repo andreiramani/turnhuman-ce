@@ -1,0 +1,155 @@
+[
+  {
+    "__prompt__": "Role: Cybersecurity & Information Assurance Taxonomy Curator.\nTask: Classify cryptographic protocols, vulnerability analysis, and zero-trust paradigms.\nNegative Prompting: Exclude malicious hacking slang."
+  },
+  {
+    "subfield_id": "cryptography_zero_knowledge",
+    "subfield_name": "Applied Cryptography & Privacy Preserving Protocols",
+    "discipline": "computer_science",
+    "keywords": [
+      "cryptography",
+      "zero-knowledge proof",
+      "elliptic curve",
+      "homomorphic encryption",
+      "public-key infrastructure",
+      "diffie-hellman",
+      "discrete logarithm",
+      "lattice cryptography",
+      "post-quantum",
+      "digital signature",
+      "hash function",
+      "sha-256",
+      "rsa"
+    ],
+    "topics": [
+      "Lattice-Based Post-Quantum Cryptosystems",
+      "Fully Homomorphic Encrypted Computation",
+      "Non-Interactive Zero-Knowledge Arguments (zk-SNARKs)",
+      "Threshold Signature Schemes",
+      "Cryptographic Side-Channel Attenuation"
+    ],
+    "journals": [
+      "Cryptography and Communications",
+      "Designs, Codes, and Cryptography",
+      "Journal of Cryptology",
+      "Journal of Mathematical Cryptology",
+      "IACR Transactions on Symmetric Cryptology",
+      "Groups, Complexity, Cryptology",
+      "International Journal of Applied Cryptography",
+      "Journal of Discrete Mathematical Sciences and Cryptography",
+      "ACM Transactions on Computation Theory",
+      "ACM Transactions on Evolutionary Learning and Optimization",
+      "ACM Transactions on Mathematical Software",
+      "ACM Transactions on Parallel Computing",
+      "ACM Transactions on Quantum Computing",
+      "IEEE Transactions on Computers",
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "authors": [
+      "Ronald L. Rivest",
+      "Adi Shamir",
+      "Leonard Adleman",
+      "Shafi Goldwasser",
+      "Silvio Micali"
+    ],
+    "landmark_papers": [
+      {
+        "key": "rivest1978method",
+        "title": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+        "authors": [
+          "Ronald L. Rivest",
+          "Adi Shamir",
+          "Leonard Adleman"
+        ],
+        "year": 1978,
+        "journal": "Communications of the ACM",
+        "doi": "10.1145/359340.359342"
+      },
+      {
+        "key": "goldwasser1989knowledge",
+        "title": "The Knowledge Complexity of Interactive Proof Systems",
+        "authors": [
+          "Shafi Goldwasser",
+          "Silvio Micali",
+          "Charles Rackoff"
+        ],
+        "year": 1989,
+        "journal": "SIAM Journal on Computing",
+        "doi": "10.1137/0218012"
+      }
+    ]
+  },
+  {
+    "subfield_id": "network_intrusion_detection",
+    "subfield_name": "Intrusion Detection & Threat Intelligence",
+    "discipline": "computer_science",
+    "keywords": [
+      "intrusion detection",
+      "malware analysis",
+      "anomaly detection",
+      "firewall",
+      "zero-trust",
+      "denial of service",
+      "attack vector",
+      "penetration testing",
+      "vulnerability assessment",
+      "cyber threat intelligence",
+      "siem",
+      "botnet",
+      "mitre att&ck"
+    ],
+    "topics": [
+      "Deep Packet Anomaly Inspection",
+      "Adversarial Robustness in Threat Detectors",
+      "Automated Reverse Engineering of Obfuscated Binaries",
+      "Zero-Day Vulnerability Surface Quantification",
+      "Distributed Denial-of-Service Mitigation Architectures"
+    ],
+    "journals": [
+      "Journal of Cybersecurity",
+      "IEEE Transactions on Cognitive Communications and Networking",
+      "IEEE Transactions on Green Communications and Networking",
+      "IEEE Transactions on Information Forensics and Security",
+      "IEEE Transactions on Machine Learning in Communications and Networking",
+      "Computer Networks",
+      "Cybersecurity",
+      "Journal of Computer Networks and Communications",
+      "Journal of Computer Security",
+      "Journal of Network and Computer Applications",
+      "Journal of Optical Communications and Networking",
+      "Journal on Wireless Communications and Networking",
+      "Information and Computer Security",
+      "ACM Transactions on Information Systems",
+      "International Journal of Business Data Communications and Networking"
+    ],
+    "authors": [
+      "Dorothy E. Denning",
+      "Vern Paxson",
+      "Stefan Savage",
+      "Wenke Lee",
+      "Dawn Song"
+    ],
+    "landmark_papers": [
+      {
+        "key": "denning1987intrusion",
+        "title": "An Intrusion-Detection Model",
+        "authors": [
+          "Dorothy E. Denning"
+        ],
+        "year": 1987,
+        "journal": "IEEE Transactions on Software Engineering",
+        "doi": "10.1109/TSE.1987.232894"
+      },
+      {
+        "key": "paxson1999bro",
+        "title": "Bro: a system for detecting network intruders in real-time",
+        "authors": [
+          "Vern Paxson"
+        ],
+        "year": 1999,
+        "journal": "Computer Networks",
+        "doi": "10.1016/S1389-1286(99)00112-7"
+      }
+    ]
+  }
+]

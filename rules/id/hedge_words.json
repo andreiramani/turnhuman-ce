@@ -1,0 +1,17 @@
+[
+  {
+    "__prompt__": "Role: Indonesian Academic Epistemic Hedging & Perplexity Optimization Specialist.\nTask: Provide high-register Indonesian scholarly adverbs and modal markers for epistemic qualification and entropy injection.\nNegative Prompting (Strict Alignment):\n- Do NOT include low-entropy colloquial hedges.\n- Maintain RFC 8259 JSON validity."
+  },
+  "cenderung",
+  "tampaknya",
+  "secara potensial",
+  "kemungkinan besar",
+  "dapat diduga",
+  "pada umumnya",
+  "secara plausibel",
+  "secara hipotetis",
+  "relatif",
+  "pada tingkat tertentu",
+  "secara substansial",
+  "secara probabel"
+]

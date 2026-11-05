@@ -1,0 +1,840 @@
+/* =============================================================================
+   TurnHuman v3.0 - Academic Linguistic Engineering Design System
+   File: assets/style.css
+   Author: Andrei Ramani / TurnHuman Multi-Agent Engineering Team
+   Specification: PLAN.md (Sprint 1 Track C)
+   Standards: WCAG 2.1 AA Compliant (Text Contrast Ratio >= 4.5:1)
+   ============================================================================= */
+
+/* -----------------------------------------------------------------------------
+   1. DESIGN TOKENS (CSS Custom Properties)
+   ----------------------------------------------------------------------------- */
+:root {
+  /* Brand / Modern Academic Palette */
+  --th-ink-dark: #1E3A8A;           /* Blue 900: Academic Ink Primary */
+  --th-cobalt: #2563EB;             /* Blue 600: Primary Interactive Accent */
+  --th-cobalt-hover: #1D4ED8;       /* Blue 700: Button / Action Hover */
+  --th-accent-electric: #3B82F6;    /* Blue 500: Active Focus / Highlights */
+  --th-accent-glow: rgba(37, 99, 235, 0.15);
+
+  /* Semantic Signal Tokens */
+  --th-emerald-safe: #10B981;       /* Emerald 500: 0 Added Words / Zero-Expansion */
+  --th-emerald-dark: #065F46;       /* Emerald 800: High-contrast green text (light) */
+  --th-emerald-light: #ECFDF5;      /* Emerald 50: Soft green badge bg */
+  --th-emerald-text-dark: #34D399;  /* Emerald 400: High-contrast green text (dark) */
+  --th-emerald-glow: rgba(16, 185, 129, 0.15);
+
+  --th-amber-warning: #F59E0B;      /* Amber 500: Minor drift / Moderate Risk */
+  --th-amber-dark: #92400E;         /* Amber 800: High-contrast amber text (light) */
+  --th-amber-light: #FFFBEB;        /* Amber 50: Soft amber badge bg */
+  --th-amber-text-dark: #FBBF24;    /* Amber 400: High-contrast amber text (dark) */
+  --th-amber-glow: rgba(245, 158, 11, 0.15);
+
+  --th-crimson-risk: #EF4444;       /* Red 500: Expansion Risk / High AI Score */
+  --th-crimson-dark: #991B1B;       /* Red 800: High-contrast crimson text (light) */
+  --th-crimson-light: #FEF2F2;      /* Red 50: Soft red badge bg */
+  --th-crimson-text-dark: #F87171;  /* Red 400: High-contrast red text (dark) */
+  --th-crimson-glow: rgba(239, 68, 68, 0.15);
+
+  /* Light Theme Surface Tokens (Default) */
+  --th-bg-canvas: #F8FAFC;          /* Slate 50: Clean Academic Background */
+  --th-bg-surface: #FFFFFF;         /* Pure White: Primary Card Container */
+  --th-bg-subtle: #F1F5F9;          /* Slate 100: Secondary Card / Well */
+  --th-border-subtle: #E2E8F0;      /* Slate 200: Default Card Border */
+  --th-border-strong: #CBD5E1;      /* Slate 300: Active Field Border */
+
+  --th-text-primary: #0F172A;       /* Slate 900: Ratio 18.5:1 on White */
+  --th-text-secondary: #334155;     /* Slate 700: Ratio 9.8:1 on White */
+  --th-text-muted: #475569;         /* Slate 600: Ratio 5.6:1 on White (WCAG AA pass) */
+
+  /* Typography Stacks */
+  --th-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --th-font-mono: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, Menlo, Monaco, 'Liberation Mono', monospace;
+
+  /* Elevation Shadows & Radius */
+  --th-radius-sm: 6px;
+  --th-radius-md: 10px;
+  --th-radius-lg: 14px;
+  --th-radius-pill: 9999px;
+
+  --th-shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  --th-shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  --th-shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.10), 0 4px 6px -4px rgba(15, 23, 42, 0.08);
+
+  /* Diff Viewer Specific Tokens (Light) */
+  --th-diff-del-bg: #FEE2E2;
+  --th-diff-del-border: #EF4444;
+  --th-diff-del-text: #991B1B;
+  --th-diff-add-bg: #D1FAE5;
+  --th-diff-add-border: #10B981;
+  --th-diff-add-text: #065F46;
+  --th-diff-prot-bg: #EFF6FF;
+  --th-diff-prot-border: #3B82F6;
+  --th-diff-prot-text: #1E40AF;
+}
+
+/* Dark Surface Overrides (Triggered by system or Streamlit dark mode) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --th-bg-canvas: #0F172A;        /* Slate 900: Dark Academic Slate */
+    --th-bg-surface: #1E293B;       /* Slate 800: Dark Card Surface */
+    --th-bg-subtle: #0B1120;        /* Deep Slate: Inset Panels */
+    --th-border-subtle: #334155;    /* Slate 700: Dark Card Border */
+    --th-border-strong: #475569;    /* Slate 600: Field Border */
+
+    --th-text-primary: #F8FAFC;     /* Slate 50: Ratio 14.2:1 on #1E293B */
+    --th-text-secondary: #E2E8F0;   /* Slate 200: Ratio 11.5:1 on #1E293B */
+    --th-text-muted: #94A3B8;       /* Slate 400: Ratio 5.2:1 on #1E293B (WCAG AA pass) */
+
+    /* Diff Viewer Specific Tokens (Dark) */
+    --th-diff-del-bg: rgba(239, 68, 68, 0.22);
+    --th-diff-del-border: #EF4444;
+    --th-diff-del-text: #FCA5A5;
+    --th-diff-add-bg: rgba(16, 185, 129, 0.22);
+    --th-diff-add-border: #10B981;
+    --th-diff-add-text: #6EE7B7;
+    --th-diff-prot-bg: rgba(59, 130, 246, 0.20);
+    --th-diff-prot-border: #60A5FA;
+    --th-diff-prot-text: #93C5FD;
+  }
+}
+
+/* Explicit Streamlit Theme Hooks */
+[data-theme="dark"], .stApp[data-theme="dark"] {
+  --th-bg-canvas: #0F172A;
+  --th-bg-surface: #1E293B;
+  --th-bg-subtle: #0B1120;
+  --th-border-subtle: #334155;
+  --th-border-strong: #475569;
+  --th-text-primary: #F8FAFC;
+  --th-text-secondary: #E2E8F0;
+  --th-text-muted: #94A3B8;
+
+  --th-diff-del-bg: rgba(239, 68, 68, 0.22);
+  --th-diff-del-border: #EF4444;
+  --th-diff-del-text: #FCA5A5;
+  --th-diff-add-bg: rgba(16, 185, 129, 0.22);
+  --th-diff-add-border: #10B981;
+  --th-diff-add-text: #6EE7B7;
+  --th-diff-prot-bg: rgba(59, 130, 246, 0.20);
+  --th-diff-prot-border: #60A5FA;
+  --th-diff-prot-text: #93C5FD;
+}
+
+/* -----------------------------------------------------------------------------
+   2. GLOBAL TYPOGRAPHY & BODY SETTINGS
+   ----------------------------------------------------------------------------- */
+html, body, [class*="css"] {
+  font-family: var(--th-font-sans);
+  color: var(--th-text-primary);
+  letter-spacing: -0.011em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code, kbd, samp, pre, .font-mono {
+  font-family: var(--th-font-mono) !important;
+}
+
+/* -----------------------------------------------------------------------------
+   3. ZERO-EXPANSION (ZE) COMPATIBILITY BADGES
+   ----------------------------------------------------------------------------- */
+.ze-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.725rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: var(--th-radius-pill);
+  line-height: 1.2;
+  white-space: nowrap;
+  user-select: none;
+  vertical-align: middle;
+  transition: all 0.15s ease-in-out;
+}
+
+/* 🟢 Neutral / 0 Net Words / ZE-Compatible */
+.ze-badge-neutral {
+  background-color: var(--th-emerald-light);
+  color: var(--th-emerald-dark);
+  border: 1px solid var(--th-emerald-safe);
+}
+@media (prefers-color-scheme: dark) {
+  .ze-badge-neutral {
+    background-color: var(--th-emerald-glow);
+    color: var(--th-emerald-text-dark);
+  }
+}
+[data-theme="dark"] .ze-badge-neutral {
+  background-color: var(--th-emerald-glow);
+  color: var(--th-emerald-text-dark);
+}
+
+/* 🟡 Minor Drift / ±1-2 Words (Voice Gated) */
+.ze-badge-drift {
+  background-color: var(--th-amber-light);
+  color: var(--th-amber-dark);
+  border: 1px solid var(--th-amber-warning);
+}
+@media (prefers-color-scheme: dark) {
+  .ze-badge-drift {
+    background-color: var(--th-amber-glow);
+    color: var(--th-amber-text-dark);
+  }
+}
+[data-theme="dark"] .ze-badge-drift {
+  background-color: var(--th-amber-glow);
+  color: var(--th-amber-text-dark);
+}
+
+/* 🔴 Expansion Risk / Adds Words / Auto-Disabled in ZE */
+.ze-badge-expand {
+  background-color: var(--th-crimson-light);
+  color: var(--th-crimson-dark);
+  border: 1px solid var(--th-crimson-risk);
+}
+@media (prefers-color-scheme: dark) {
+  .ze-badge-expand {
+    background-color: var(--th-crimson-glow);
+    color: var(--th-crimson-text-dark);
+  }
+}
+[data-theme="dark"] .ze-badge-expand {
+  background-color: var(--th-crimson-glow);
+  color: var(--th-crimson-text-dark);
+}
+
+/* Indicator dot helpers */
+.ze-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.ze-dot-green { background-color: var(--th-emerald-safe); }
+.ze-dot-amber { background-color: var(--th-amber-warning); }
+.ze-dot-red   { background-color: var(--th-crimson-risk); }
+
+/* -----------------------------------------------------------------------------
+   4. ADVANCED TRANSFORMATION TOGGLE PANEL (14 KNOBS)
+   ----------------------------------------------------------------------------- */
+.knobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+.knob-card {
+  background-color: var(--th-bg-surface);
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-md);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.knob-card:hover {
+  border-color: var(--th-cobalt);
+  box-shadow: var(--th-shadow-sm);
+}
+
+.knob-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.knob-title {
+  font-size: 0.885rem;
+  font-weight: 600;
+  color: var(--th-text-primary);
+  margin: 0;
+}
+
+.knob-stage-id {
+  font-family: var(--th-font-mono);
+  font-size: 0.72rem;
+  color: var(--th-text-muted);
+  background: var(--th-bg-subtle);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.knob-desc {
+  font-size: 0.785rem;
+  color: var(--th-text-muted);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.knob-disabled-ze {
+  opacity: 0.55;
+  filter: grayscale(40%);
+  background-color: var(--th-bg-subtle);
+  cursor: not-allowed;
+}
+
+/* -----------------------------------------------------------------------------
+   5. INTERACTIVE SIDE-BY-SIDE DIFF VIEWER
+   ----------------------------------------------------------------------------- */
+.diff-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  background-color: var(--th-bg-surface);
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-lg);
+  padding: 16px;
+  box-shadow: var(--th-shadow-md);
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .diff-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.diff-column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-md);
+  overflow: hidden;
+  background-color: var(--th-bg-canvas);
+}
+
+.diff-header {
+  padding: 10px 14px;
+  background-color: var(--th-bg-subtle);
+  border-bottom: 1px solid var(--th-border-subtle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.diff-header-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--th-text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.diff-stats {
+  font-family: var(--th-font-mono);
+  font-size: 0.775rem;
+  font-weight: 600;
+  color: var(--th-text-muted);
+}
+
+.diff-scroll-box {
+  padding: 16px;
+  min-height: 280px;
+  max-height: 480px;
+  overflow-y: auto;
+  font-family: var(--th-font-mono);
+  font-size: 0.865rem;
+  line-height: 1.7;
+  color: var(--th-text-primary);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Highlighted Tokens in Diff */
+.diff-deleted, .diff-removed {
+  background-color: var(--th-diff-del-bg);
+  color: var(--th-diff-del-text);
+  border-left: 2px solid var(--th-diff-del-border);
+  padding: 1px 4px;
+  border-radius: 3px;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.diff-added, .diff-inserted {
+  background-color: var(--th-diff-add-bg);
+  color: var(--th-diff-add-text);
+  border-left: 2px solid var(--th-diff-add-border);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.diff-protected {
+  background-color: var(--th-diff-prot-bg);
+  color: var(--th-diff-prot-text);
+  border: 1px solid var(--th-diff-prot-border);
+  padding: 2px 7px;
+  border-radius: var(--th-radius-pill);
+  font-weight: 600;
+  font-size: 0.825em;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: var(--th-shadow-sm);
+}
+
+.diff-protected::before {
+  content: "🔒";
+  font-size: 0.75em;
+}
+
+/* -----------------------------------------------------------------------------
+   6. ZIPPY ENTROPY CHECKER & TRILATERAL PROGRESS GAUGE
+   ----------------------------------------------------------------------------- */
+.gauge-card {
+  background-color: var(--th-bg-surface);
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-lg);
+  padding: 20px;
+  box-shadow: var(--th-shadow-md);
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.gauge-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 12px;
+}
+
+.gauge-score-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.gauge-score-value {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.gauge-score-value.high    { color: var(--th-crimson-risk); }
+.gauge-score-value.moderate{ color: var(--th-amber-warning); }
+.gauge-score-value.low     { color: var(--th-emerald-safe); }
+
+.gauge-score-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--th-text-muted);
+}
+
+/* Stacked Trilateral Progress Meter */
+.trilateral-gauge-track {
+  width: 100%;
+  height: 18px;
+  background-color: var(--th-bg-subtle);
+  border-radius: var(--th-radius-pill);
+  overflow: hidden;
+  display: flex;
+  border: 1px solid var(--th-border-subtle);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 14px;
+}
+
+.trilateral-segment {
+  height: 100%;
+  transition: width 0.4s ease-in-out;
+  position: relative;
+}
+
+.trilateral-human   { background-color: var(--th-emerald-safe); }
+.trilateral-refined { background-color: var(--th-amber-warning); }
+.trilateral-ai      { background-color: var(--th-crimson-risk); }
+
+/* Trilateral Legend */
+.trilateral-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: flex-start;
+  font-size: 0.825rem;
+  color: var(--th-text-secondary);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.legend-color-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.legend-color-dot.human   { background-color: var(--th-emerald-safe); }
+.legend-color-dot.refined { background-color: var(--th-amber-warning); }
+.legend-color-dot.ai      { background-color: var(--th-crimson-risk); }
+
+.legend-pct {
+  font-family: var(--th-font-mono);
+  font-weight: 700;
+  color: var(--th-text-primary);
+}
+
+/* Span Risk Reader Highlighting */
+.span-risk-high {
+  background-color: var(--th-crimson-glow);
+  color: inherit;
+  border-bottom: 2.5px solid var(--th-crimson-risk);
+  border-radius: 2px;
+  padding: 1px 3px;
+  font-weight: 500;
+}
+
+.span-risk-moderate {
+  background-color: var(--th-amber-glow);
+  color: inherit;
+  border-bottom: 2.5px solid var(--th-amber-warning);
+  border-radius: 2px;
+  padding: 1px 3px;
+  font-weight: 500;
+}
+
+.span-risk-low {
+  background-color: var(--th-emerald-glow);
+  color: inherit;
+  border-bottom: 2px solid var(--th-emerald-safe);
+  border-radius: 2px;
+  padding: 1px 3px;
+}
+
+/* -----------------------------------------------------------------------------
+   7. TELEMETRY CARDS & STAT METRICS
+   ----------------------------------------------------------------------------- */
+.telemetry-card {
+  background-color: var(--th-bg-surface);
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-md);
+  padding: 14px 18px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.telemetry-header {
+  font-size: 0.785rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--th-text-muted);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.telemetry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+}
+
+.telemetry-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.telemetry-label {
+  font-size: 0.725rem;
+  color: var(--th-text-muted);
+  margin-bottom: 2px;
+}
+
+.telemetry-value {
+  font-family: var(--th-font-mono);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--th-text-primary);
+}
+
+.telemetry-badge-safe {
+  color: var(--th-emerald-dark);
+  font-weight: 700;
+}
+@media (prefers-color-scheme: dark) {
+  .telemetry-badge-safe { color: var(--th-emerald-text-dark); }
+}
+[data-theme="dark"] .telemetry-badge-safe { color: var(--th-emerald-text-dark); }
+
+/* -----------------------------------------------------------------------------
+   8. STREAMLIT COMPONENT OVERRIDES
+   ----------------------------------------------------------------------------- */
+/* App Layout Frame */
+.stApp {
+  background-color: var(--th-bg-canvas);
+}
+
+/* Sidebar Custom Styling */
+[data-testid="stSidebar"] {
+  background-color: var(--th-bg-surface);
+  border-right: 1px solid var(--th-border-subtle);
+}
+
+.sidebar-brand-box {
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.08) 0%, rgba(37, 99, 235, 0.04) 100%);
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-md);
+}
+
+.sidebar-brand-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--th-cobalt);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.sidebar-brand-meta {
+  font-family: var(--th-font-mono);
+  font-size: 0.7rem;
+  color: var(--th-text-muted);
+  margin-top: 4px;
+}
+
+/* Primary, Secondary, Download, and Form Submit Buttons */
+.stButton > button[kind="primary"],
+.stButton > button,
+.stDownloadButton > button,
+.stFormSubmitButton > button {
+  background-color: var(--th-cobalt) !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+  font-size: 0.885rem !important;
+  border-radius: var(--th-radius-md) !important;
+  border: 1px solid var(--th-cobalt) !important;
+  padding: 0.52rem 1.25rem !important;
+  transition: all 0.15s ease !important;
+  box-shadow: var(--th-shadow-sm) !important;
+  white-space: nowrap !important;
+  min-width: max-content !important;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover,
+.stFormSubmitButton > button:hover {
+  background-color: var(--th-cobalt-hover) !important;
+  border-color: var(--th-cobalt-hover) !important;
+  box-shadow: var(--th-shadow-md) !important;
+  transform: translateY(-1px);
+}
+
+.stButton > button:active,
+.stDownloadButton > button:active,
+.stFormSubmitButton > button:active {
+  transform: translateY(0);
+}
+
+.stButton > button[kind="secondary"],
+.stDownloadButton > button[kind="secondary"] {
+  background-color: var(--th-bg-surface) !important;
+  color: var(--th-text-primary) !important;
+  border: 1px solid var(--th-border-strong) !important;
+}
+
+.stButton > button[kind="secondary"]:hover,
+.stDownloadButton > button[kind="secondary"]:hover {
+  background-color: var(--th-bg-subtle) !important;
+  border-color: var(--th-cobalt) !important;
+}
+
+/* Tabs Styling */
+.stTabs [data-baseweb="tab-list"] {
+  gap: 8px;
+  border-bottom: 2px solid var(--th-border-subtle);
+  margin-bottom: 16px;
+}
+
+.stTabs [data-baseweb="tab"] {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--th-text-muted);
+  border-radius: var(--th-radius-md) var(--th-radius-md) 0 0;
+  padding: 8px 16px;
+  transition: color 0.15s ease;
+}
+
+.stTabs [aria-selected="true"] {
+  color: var(--th-cobalt) !important;
+  border-bottom: 2px solid var(--th-cobalt) !important;
+  font-weight: 700;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+  font-weight: 600 !important;
+  font-size: 0.925rem !important;
+  color: var(--th-text-primary) !important;
+  background-color: var(--th-bg-surface) !important;
+  border: 1px solid var(--th-border-subtle) !important;
+  border-radius: var(--th-radius-md) !important;
+  padding: 10px 14px !important;
+}
+
+.streamlit-expanderContent {
+  border: 1px solid var(--th-border-subtle);
+  border-top: none;
+  border-radius: 0 0 var(--th-radius-md) var(--th-radius-md);
+  padding: 14px !important;
+  background-color: var(--th-bg-canvas);
+}
+
+/* Metric Display Cards */
+[data-testid="stMetric"] {
+  background-color: var(--th-bg-surface);
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-md);
+  padding: 12px 16px;
+  box-shadow: var(--th-shadow-sm);
+}
+
+[data-testid="stMetricLabel"] {
+  font-size: 0.785rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  color: var(--th-text-muted) !important;
+}
+
+[data-testid="stMetricValue"] {
+  font-family: var(--th-font-mono) !important;
+  font-size: 1.45rem !important;
+  font-weight: 700 !important;
+  color: var(--th-text-primary) !important;
+}
+
+/* Textareas and Inputs */
+.stTextArea textarea, .stTextInput input {
+  font-family: var(--th-font-sans);
+  background-color: var(--th-bg-surface) !important;
+  border: 1px solid var(--th-border-strong) !important;
+  border-radius: var(--th-radius-md) !important;
+  color: var(--th-text-primary) !important;
+  font-size: 0.9rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.stTextArea textarea:focus, .stTextInput input:focus {
+  border-color: var(--th-cobalt) !important;
+  box-shadow: 0 0 0 3px var(--th-accent-glow) !important;
+}
+
+/* Code & Monospace Inputs */
+.code-editor textarea {
+  font-family: var(--th-font-mono) !important;
+  font-size: 0.85rem !important;
+  line-height: 1.6 !important;
+}
+
+/* -----------------------------------------------------------------------------
+   9. STANDARDIZED ANDREI RAMANI FOOTER & EXTERNAL DETECTOR VERIFIER
+   ----------------------------------------------------------------------------- */
+.turnhuman-footer {
+  margin-top: 48px;
+  margin-bottom: 24px;
+  padding: 24px 20px;
+  background-color: var(--th-bg-surface);
+  border: 1px solid var(--th-border-subtle);
+  border-radius: var(--th-radius-lg);
+  box-shadow: var(--th-shadow-sm);
+  text-align: center;
+}
+
+.footer-brand {
+  font-size: 0.885rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--th-text-primary);
+  margin-bottom: 8px;
+}
+
+.footer-brand span {
+  color: var(--th-cobalt);
+}
+
+.footer-verifier-box {
+  margin: 14px auto;
+  max-width: 680px;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.06) 0%, rgba(16, 185, 129, 0.06) 100%);
+  border: 1px solid var(--th-accent-electric);
+  border-radius: var(--th-radius-md);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--th-text-secondary);
+}
+
+.footer-quillbot-link {
+  color: var(--th-cobalt) !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+.footer-quillbot-link:hover {
+  color: var(--th-cobalt-hover) !important;
+}
+
+.footer-meta {
+  font-size: 0.75rem;
+  color: var(--th-text-muted);
+  margin-top: 10px;
+}
+
+.footer-badges-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.footer-pill-tag {
+  font-family: var(--th-font-mono);
+  font-size: 0.685rem;
+  background-color: var(--th-bg-subtle);
+  color: var(--th-text-muted);
+  padding: 2px 8px;
+  border-radius: var(--th-radius-pill);
+  border: 1px solid var(--th-border-subtle);
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.15s ease;
+}
+
+a.footer-pill-tag {
+  color: var(--th-cobalt);
+}
+
+a.footer-pill-tag:hover {
+  color: var(--th-cobalt-hover);
+  border-color: var(--th-cobalt);
+  background-color: rgba(37, 99, 235, 0.08);
+}

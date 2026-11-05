@@ -1,0 +1,112 @@
+[
+  {
+    "__prompt__": "Role: Pharmacy, Pharmacology & Drug Delivery Taxonomy Specialist.\nTask: Classify pharmacokinetics (ADME), formulation pharmaceutics, nanomedicine drug delivery, receptor interactions, and clinical pharmacotherapy."
+  },
+  {
+    "subfield_id": "pharmacy_pharmacology_drug_delivery",
+    "subfield_name": "Pharmacy, Clinical Pharmacology & Targeted Drug Delivery",
+    "discipline": "medical_life_sciences",
+    "keywords": [
+      "pharmacology",
+      "pharmacokinetics",
+      "pharmacodynamics",
+      "adme",
+      "bioavailability",
+      "drug delivery",
+      "clearance",
+      "half-life",
+      "volume of distribution",
+      "pharmaceutics",
+      "drug formulation",
+      "nanomedicine",
+      "liposomes",
+      "polymeric micelles",
+      "medicinal chemistry",
+      "receptor affinity",
+      "clinical pharmacy",
+      "pharmacotherapy",
+      "drug-drug interaction",
+      "pharmacovigilance",
+      "adverse drug reaction",
+      "therapeutic drug monitoring",
+      "biopharmaceutics classification system",
+      "sustained release",
+      "monoclonal antibody",
+      "farmakologi",
+      "farmakokinetika",
+      "sediaan obat",
+      "interaksi obat",
+      "efek samping obat",
+      "penghantaran obat"
+    ],
+    "topics": [
+      "Polymer-Based Nanocarriers for Controlled and Targeted Macromolecular Drug Delivery",
+      "Physiologically Based Pharmacokinetic (PBPK) Modeling for Dose Optimization in Special Populations",
+      "Mechanistic Evaluation of Cytochrome P450-Mediated Clinical Drug-Drug Interactions",
+      "Formulation Strategies for Enhancing the Oral Bioavailability of BCS Class II/IV Drugs",
+      "Therapeutic Drug Monitoring and Pharmacogenomic Stratification in Precision Pharmacotherapy"
+    ],
+    "journals": [
+      "Advanced Drug Delivery Reviews",
+      "European Journal of Pharmaceutical Sciences",
+      "Basic and Clinical Pharmacology and Toxicology",
+      "British Journal of Clinical Pharmacology",
+      "Clinical Pharmacology and Therapeutics",
+      "Drug Delivery and Translational Research",
+      "European Journal of Clinical Pharmacology",
+      "International Journal of Pharmaceutics",
+      "Journal of Aerosol Medicine and Pulmonary Drug Delivery",
+      "Molecular Pharmaceutics",
+      "Toxicology and Applied Pharmacology",
+      "Drug Delivery",
+      "Expert Opinion on Drug Delivery",
+      "International Journal of Pharmaceutics: X",
+      "DARU, Journal of Pharmaceutical Sciences"
+    ],
+    "authors": [
+      "Robert S. Langer",
+      "Leslie Z. Benet",
+      "Malcolm Rowland",
+      "Thomas N. Tozer",
+      "Gordon L. Amidon",
+      "Alexander T. Florence"
+    ],
+    "landmark_papers": [
+      {
+        "key": "langer1976polymers",
+        "title": "Polymers for the sustained release of proteins and other macromolecules",
+        "authors": [
+          "Robert Langer",
+          "Judah Folkman"
+        ],
+        "year": 1976,
+        "journal": "Nature",
+        "doi": "10.1038/263797a0"
+      },
+      {
+        "key": "amidon1995theoretical",
+        "title": "A Theoretical Basis for a Biopharmaceutic Drug Classification: The Correlation of in Vitro Drug Product Dissolution and in Vivo Bioavailability",
+        "authors": [
+          "Gordon L. Amidon",
+          "Hans Lennernäs",
+          "Vinod P. Shah",
+          "John R. Crison"
+        ],
+        "year": 1995,
+        "journal": "Pharmaceutical Research",
+        "doi": "10.1023/A:1016212804288"
+      },
+      {
+        "key": "benet2002changes",
+        "title": "Changes in plasma protein binding have little clinical relevance",
+        "authors": [
+          "Leslie Z. Benet",
+          "Betty-Ann Hoener"
+        ],
+        "year": 2002,
+        "journal": "Clinical Pharmacology & Therapeutics",
+        "doi": "10.1067/mcp.2002.121829"
+      }
+    ]
+  }
+]

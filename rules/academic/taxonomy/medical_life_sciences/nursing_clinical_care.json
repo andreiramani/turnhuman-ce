@@ -1,0 +1,129 @@
+[
+  {
+    "__prompt__": "Role: Evidence-Based Nursing & Patient Care Taxonomy Specialist.\nTask: Classify nursing interventions, patient safety protocols, nurse staffing and burnout, palliative and geriatric care, and infection control."
+  },
+  {
+    "subfield_id": "evidence_based_nursing_clinical_care",
+    "subfield_name": "Evidence-Based Nursing Practice & Patient Care Management",
+    "discipline": "medical_life_sciences",
+    "keywords": [
+      "nursing",
+      "clinical nursing",
+      "evidence-based nursing",
+      "patient care",
+      "patient safety",
+      "nursing intervention",
+      "nurse staffing",
+      "hospital mortality",
+      "failure to rescue",
+      "nurse burnout",
+      "critical care nursing",
+      "palliative care",
+      "pressure ulcer",
+      "infection control",
+      "fall prevention",
+      "care coordination",
+      "holistic care",
+      "nursing assessment",
+      "patient satisfaction",
+      "nursing administration",
+      "clinical outcomes",
+      "wound care",
+      "triage",
+      "keperawatan",
+      "asuhan keperawatan",
+      "keselamatan pasien",
+      "intervensi keperawatan",
+      "keperawatan kritis",
+      "perawatan paliatif",
+      "pencegahan infeksi"
+    ],
+    "topics": [
+      "Association of Hospital Nurse Staffing Ratios and Workload with Patient Mortality and Failure-to-Rescue",
+      "Implementation and Compliance Evaluation of Evidence-Based Care Bundles in Intensive Care Units",
+      "Palliative and End-of-Life Nursing Interventions for Symptom Alleviation in Chronic Terminal Illnesses",
+      "Nurse-Led Care Coordination Interventions to Reduce Post-Discharge 30-Day Hospital Readmissions",
+      "Evaluating Workplace Ergonomics, Compassion Fatigue, and Occupational Stress in Acute Care Nursing"
+    ],
+    "journals": [
+      "International Journal of Nursing Studies Advances",
+      "Worldviews on Evidence-Based Nursing",
+      "Applied Nursing Research",
+      "Clinical Nursing Research",
+      "International Journal of Nursing Studies",
+      "Critical Care Nursing Clinics of North America",
+      "Intensive and Critical Care Nursing",
+      "Journal of Advanced Nursing",
+      "Journal of Clinical Nursing",
+      "Journal of Nursing Scholarship",
+      "Dimensions of Critical Care Nursing",
+      "Evidence-Based Nursing",
+      "Australian Journal of Advanced Nursing",
+      "Canadian Journal of Nursing Research",
+      "Global Qualitative Nursing Research"
+    ],
+    "authors": [
+      "Linda H. Aiken",
+      "Patricia E. Benner",
+      "Bernadette Mazurek Melnyk",
+      "Afaf I. Meleis",
+      "Mary D. Naylor",
+      "Peter Buerhaus"
+    ],
+    "landmark_papers": [
+      {
+        "key": "aiken2002hospital",
+        "title": "Hospital Nurse Staffing and Patient Mortality, Nurse Burnout, and Job Dissatisfaction",
+        "authors": [
+          "Linda H. Aiken",
+          "Sean P. Clarke",
+          "Douglas M. Sloane",
+          "Julie Sochalski",
+          "Jeffrey H. Silber"
+        ],
+        "year": 2002,
+        "journal": "JAMA",
+        "doi": "10.1001/jama.288.16.1987"
+      },
+      {
+        "key": "aiken2014nurse",
+        "title": "Nurse staffing and education and hospital mortality in nine European countries: a retrospective observational study",
+        "authors": [
+          "Linda H. Aiken",
+          "Douglas M. Sloane",
+          "Luk Bruyneel",
+          "Koen Van den Heede",
+          "Peter Griffiths",
+          "Reinhard Busse",
+          "Marco Diomidous",
+          "Juha Kinnunen",
+          "Maria Kózka",
+          "Emmanuel Lesaffre",
+          "Matthew D. McHugh",
+          "Maria Teresa Moreno-Casbas",
+          "Anne Marie Rafferty",
+          "Runar Schwendimann",
+          "P. Anne Scott",
+          "Carol Tishelman",
+          "Achim van Achterberg",
+          "Walter Sermeus"
+        ],
+        "year": 2014,
+        "journal": "The Lancet",
+        "doi": "10.1016/S0140-6736(13)62631-8"
+      },
+      {
+        "key": "melnyk2008evidence",
+        "title": "The Evidence-Based Practice Beliefs and Implementation Scales: Psychometric properties of two new instruments",
+        "authors": [
+          "Bernadette Mazurek Melnyk",
+          "Ellen Fineout-Overholt",
+          "Susan B. Feinstein"
+        ],
+        "year": 2008,
+        "journal": "Worldviews on Evidence-Based Nursing",
+        "doi": "10.1111/j.1741-6787.2008.00126.x"
+      }
+    ]
+  }
+]

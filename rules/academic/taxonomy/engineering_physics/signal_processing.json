@@ -1,0 +1,80 @@
+[
+  {
+    "__prompt__": "Role: Signal Processing & Physical Communications Specialist.\nTask: Classify Fourier analysis, wavelets, compressed sensing, and adaptive filtering."
+  },
+  {
+    "subfield_id": "statistical_signal_processing",
+    "subfield_name": "Statistical & Adaptive Signal Processing",
+    "discipline": "engineering_physics",
+    "keywords": [
+      "signal processing",
+      "fourier transform",
+      "kalman filter",
+      "wavelet",
+      "compressed sensing",
+      "nyquist",
+      "spectral analysis",
+      "beamforming",
+      "adaptive filter",
+      "wiener filter",
+      "convolution",
+      "sampling theorem",
+      "sparse representation"
+    ],
+    "topics": [
+      "Compressive Sensing Recovery via L1 Minimization",
+      "Non-Stationary Wavelet Multiresolution Analysis",
+      "Array Signal Processing and Spatial Beamforming",
+      "Kalman State Filtering under Colored Gaussian Noise",
+      "Orthogonal Frequency-Division Multiplexing (OFDM)"
+    ],
+    "journals": [
+      "IEEE Transactions on Signal Processing",
+      "Circuits, Systems, and Signal Processing",
+      "Digital Signal Processing: A Review Journal",
+      "IEEE Journal on Selected Topics in Signal Processing",
+      "IEEE Signal Processing Letters",
+      "IEEE Signal Processing Magazine",
+      "IET Signal Processing",
+      "Journal of Signal Processing Systems",
+      "Sampling Theory, Signal Processing, and Data Analysis",
+      "WSEAS Transactions on Signal Processing",
+      "IEEE Transactions on Signal and Information Processing over Networks",
+      "Analog Integrated Circuits and Signal Processing",
+      "Biomedical Signal Processing and Control",
+      "IEEE Open Journal of Signal Processing",
+      "International Journal of Adaptive Control and Signal Processing"
+    ],
+    "authors": [
+      "Claude E. Shannon",
+      "David Donoho",
+      "Emmanuel Candès",
+      "Alan V. Oppenheim",
+      "Thomas Kailath"
+    ],
+    "landmark_papers": [
+      {
+        "key": "candes2006robust",
+        "title": "Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information",
+        "authors": [
+          "Emmanuel J. Candès",
+          "Justin Romberg",
+          "Terence Tao"
+        ],
+        "year": 2006,
+        "journal": "IEEE Transactions on Information Theory",
+        "doi": "10.1109/TIT.2005.862083"
+      },
+      {
+        "key": "donoho2006compressed",
+        "title": "Compressed sensing",
+        "authors": [
+          "David L. Donoho"
+        ],
+        "year": 2006,
+        "journal": "IEEE Transactions on Information Theory",
+        "doi": "10.1109/TIT.2006.871582"
+      }
+    ]
+  }
+]

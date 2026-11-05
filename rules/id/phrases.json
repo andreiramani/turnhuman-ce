@@ -1,0 +1,165 @@
+[
+  {
+    "__prompt__": "Role: Indonesian High-Entropy Scholarly Multi-Word Rewrite Specialist.\nTask: Neutralize high-probability Indonesian AI cliches, formulaic expressions, and repetitive generative patterns by substituting them with concise, rigorous academic equivalents.\nNegative Prompting (Strict Alignment):\n- All search patterns MUST be enclosed in '\\b' regex word boundaries.\n- Replacements must preserve grammatical tense, aspect, and register.\n- Maintain RFC 8259 JSON validity."
+  },
+  [
+    "\\btidak dapat dipungkiri bahwa\\b",
+    "fakta menunjukkan bahwa"
+  ],
+  [
+    "\\bdalam era globalisasi saat ini\\b",
+    "pada konteks kontemporer"
+  ],
+  [
+    "\\bdalam era globalisasi yang semakin pesat\\b",
+    "dalam perkembangannya"
+  ],
+  [
+    "\\bmerupakan hal yang sangat krusial\\b",
+    "bersifat fundamental"
+  ],
+  [
+    "\\bmenjadi bukti nyata bahwa\\b",
+    "mengonfirmasi bahwa"
+  ],
+  [
+    "\\bsebagaimana kita ketahui bersama\\b",
+    "sebagaimana telah diuraikan"
+  ],
+  [
+    "\\bmemiliki peran yang sangat penting\\b",
+    "berperan signifikan"
+  ],
+  [
+    "\\bmemegang peranan yang sangat penting\\b",
+    "berkontribusi esensial"
+  ],
+  [
+    "\\bdapat ditarik kesimpulan bahwa\\b",
+    "disimpulkan bahwa"
+  ],
+  [
+    "\\bdalam rangka untuk\\b",
+    "guna"
+  ],
+  [
+    "\\bmerupakan salah satu faktor yang paling penting\\b",
+    "menjadi faktor determinan"
+  ],
+  [
+    "\\bhal ini dikarenakan oleh karena\\b",
+    "hal ini disebabkan oleh"
+  ],
+  [
+    "\\bsejalan dengan perkembangan zaman\\b",
+    "secara gradual"
+  ],
+  [
+    "\\bmemberikan dampak yang sangat signifikan\\b",
+    "berdampak signifikan"
+  ],
+  [
+    "\\bperlu digarisbawahi bahwa\\b",
+    "patut ditegaskan bahwa"
+  ],
+  [
+    "\\bseperti yang telah dijelaskan sebelumnya\\b",
+    "sebagaimana telah dipaparkan"
+  ],
+  [
+    "\\btak dapat disangkal lagi bahwa\\b",
+    "terbukti bahwa"
+  ],
+  [
+    "\\bdapat dilihat dengan jelas bahwa\\b",
+    "tampak bahwa"
+  ],
+  [
+    "\\bdalam penelitian ini penulis bermaksud untuk\\b",
+    "kajian ini bertujuan untuk"
+  ],
+  [
+    "\\bberdasarkan hasil analisis yang telah dilakukan\\b",
+    "berdasarkan temuan empiris"
+  ],
+  [
+    "\\bmemiliki dampak yang sangat besar terhadap\\b",
+    "berpengaruh kuat terhadap"
+  ],
+  [
+    "\\bdalam hal ini dapat dikatakan bahwa\\b",
+    "dengan demikian"
+  ],
+  [
+    "\\bmenunjukkan adanya hubungan yang erat antara\\b",
+    "berkorelasi positif dengan"
+  ],
+  [
+    "\\bdapat memberikan kontribusi yang positif bagi\\b",
+    "berkontribusi positif pada"
+  ],
+  [
+    "\\bmerupakan suatu keharusan yang mutlak\\b",
+    "menjadi imperatif"
+  ],
+  [
+    "\\btidak dapat dielakkan lagi bahwa\\b",
+    "secara tak terelakkan"
+  ],
+  [
+    "\\bdi sisi lain perlu diperhatikan bahwa\\b",
+    "kendati demikian"
+  ],
+  [
+    "\\bsebagai salah satu langkah awal yang penting\\b",
+    "sebagai premis dasar"
+  ],
+  [
+    "\\bmemberikan gambaran yang jelas mengenai\\b",
+    "menggambarkan secara sistematis"
+  ],
+  [
+    "\\bmerupakan topik yang sangat menarik untuk diperbincangkan\\b",
+    "merupakan diskursus relevan"
+  ],
+  [
+    "\\bseiring berjalannya waktu dan berkembangnya teknologi\\b",
+    "seiring kemajuan teknologi"
+  ],
+  [
+    "\\bmenjadi perhatian utama bagi para akademisi\\b",
+    "menjadi fokus akademik"
+  ],
+  [
+    "\\bhal tersebut membuktikan secara nyata bahwa\\b",
+    "hal tersebut memvalidasi bahwa"
+  ],
+  [
+    "\\bpatut diapresiasi karena\\b",
+    "bernilai ilmiah karena"
+  ],
+  [
+    "\\bdalam upaya untuk mencapai tujuan tersebut\\b",
+    "untuk merealisasikan tujuan tersebut"
+  ],
+  [
+    "\\bmemiliki kaitan yang sangat erat dengan\\b",
+    "terkait langsung dengan"
+  ],
+  [
+    "\\bsecara garis besar dapat dipahami bahwa\\b",
+    "secara umum diindikasikan bahwa"
+  ],
+  [
+    "\\bdapat diambil sebuah intisari bahwa\\b",
+    "disintesiskan bahwa"
+  ],
+  [
+    "\\bmerupakan landasan utama yang mendasari\\b",
+    "melandasi secara teoretis"
+  ],
+  [
+    "\\bmemberikan wawasan baru yang berharga\\b",
+    "menyajikan kebaruan wawasan"
+  ]
+]

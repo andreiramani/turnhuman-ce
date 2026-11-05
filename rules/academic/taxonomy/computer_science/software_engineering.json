@@ -1,0 +1,81 @@
+[
+  {
+    "__prompt__": "Role: Software Engineering & Formal Methods Specialist.\nTask: Classify software architecture, static analysis, verification, and empirical methodologies."
+  },
+  {
+    "subfield_id": "program_analysis_verification",
+    "subfield_name": "Program Analysis & Formal Verification",
+    "discipline": "computer_science",
+    "keywords": [
+      "software engineering",
+      "static analysis",
+      "formal verification",
+      "abstract interpretation",
+      "model checking",
+      "symbolic execution",
+      "type theory",
+      "refactoring",
+      "code smell",
+      "test-driven development",
+      "continuous integration",
+      "software metrics",
+      "cyclomatic complexity"
+    ],
+    "topics": [
+      "Automated Concolic Testing and Fuzzing",
+      "Static Null-Safety and Taint Tracking",
+      "Proof Assistants and Formally Verified Kernels",
+      "Continuous Integration Regression Minimization",
+      "Empirical Software Defect Prediction"
+    ],
+    "journals": [
+      "Automated Software Engineering",
+      "Empirical Software Engineering",
+      "ACM Transactions on Programming Languages and Systems",
+      "ACM Transactions on Software Engineering and Methodology",
+      "IEEE Transactions on Software Engineering",
+      "Innovations in Systems and Software Engineering",
+      "Software and Systems Modeling",
+      "Software Testing Verification and Reliability",
+      "E-Informatica Software Engineering Journal",
+      "Formal Methods in System Design",
+      "Foundations and Trends in Programming Languages",
+      "International Journal of Software Engineering and Knowledge Engineering",
+      "VFAST Transactions on Software Engineering",
+      "ACM Transactions on Mathematical Software",
+      "IEEE Transactions on Medical Imaging"
+    ],
+    "authors": [
+      "Martin Fowler",
+      "Edmund M. Clarke",
+      "Patrick Cousot",
+      "Gail C. Murphy",
+      "Lionel C. Briand"
+    ],
+    "landmark_papers": [
+      {
+        "key": "cousot1977abstract",
+        "title": "Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs",
+        "authors": [
+          "Patrick Cousot",
+          "Radhia Cousot"
+        ],
+        "year": 1977,
+        "journal": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+        "doi": "10.1145/512950.512973"
+      },
+      {
+        "key": "clarke1994model",
+        "title": "Model checking and abstraction",
+        "authors": [
+          "Edmund M. Clarke",
+          "Orna Grumberg",
+          "David E. Long"
+        ],
+        "year": 1994,
+        "journal": "ACM Transactions on Programming Languages and Systems",
+        "doi": "10.1145/186025.186051"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "__prompt__": "Role: Indonesian Syntactic Variator & Demonstrative Determiner Specialist.\nTask: Rotate Indonesian demonstratives, determiners, and referential articles to break n-gram repetitions and vary stylometric rhythm while preserving semantic reference.\nNegative Prompting (Strict Alignment):\n- Preserve exact grammatical reference and concordance.\n- Maintain RFC 8259 JSON validity.",
+  "tersebut": [
+    "ini",
+    "itu",
+    "terkait",
+    "bersangkutan",
+    "dimaksud",
+    "yang dibahas"
+  ],
+  "ini": [
+    "tersebut",
+    "terkait",
+    "ini sendiri",
+    "yang bersangkutan"
+  ],
+  "itu": [
+    "tersebut",
+    "terkait",
+    "hal tersebut",
+    "fenomena tersebut"
+  ],
+  "terkait": [
+    "tersebut",
+    "bersangkutan",
+    "relevan",
+    "dimaksud"
+  ],
+  "bersangkutan": [
+    "terkait",
+    "tersebut",
+    "dimaksud"
+  ],
+  "setiap": [
+    "tiap",
+    "masing-masing",
+    "seluruh"
+  ],
+  "masing-masing": [
+    "tiap-tiap",
+    "setiap",
+    "masing-masing dari"
+  ],
+  "suatu": [
+    "sebuah",
+    "suatu bentuk",
+    "satu"
+  ],
+  "seluruh": [
+    "semua",
+    "setiap",
+    "keseluruhan"
+  ]
+}

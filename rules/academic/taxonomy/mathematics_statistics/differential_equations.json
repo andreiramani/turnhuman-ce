@@ -1,0 +1,78 @@
+[
+  {
+    "__prompt__": "Role: Applied Mathematics & Differential Equations Specialist.\nTask: Classify partial differential equations, dynamical systems, bifurcation, and Sobolev theory."
+  },
+  {
+    "subfield_id": "nonlinear_pde_dynamical_systems",
+    "subfield_name": "Nonlinear PDEs & Dynamical Systems",
+    "discipline": "mathematics_statistics",
+    "keywords": [
+      "differential equation",
+      "partial differential equation",
+      "dynamical system",
+      "bifurcation",
+      "sobolev space",
+      "lyapunov exponent",
+      "cauchy problem",
+      "hamiltonian",
+      "elliptic equation",
+      "parabolic equation",
+      "hyperbolic conservation law",
+      "weak solution",
+      "boundary value problem"
+    ],
+    "topics": [
+      "Well-Posedness in Fractional Sobolev Spaces",
+      "Attractor Dimension in Infinite-Dimensional Systems",
+      "Nonlinear Dispersive Wave Formulations",
+      "Viscosity Solutions to Hamilton-Jacobi Systems",
+      "Bifurcation and Chaos in Hamiltonian Manifolds"
+    ],
+    "journals": [
+      "Differential Equations and Dynamical Systems",
+      "Nonlinear Differential Equations and Applications",
+      "International Journal of Differential Equations",
+      "Journal of Differential Equations",
+      "Journal of Nonlinear Mathematical Physics",
+      "Journal of Nonlinear Science",
+      "Nonlinear Analysis, Theory, Methods and Applications",
+      "Nonlinear Analysis: Real World Applications",
+      "Partial Differential Equations in Applied Mathematics",
+      "Physica D: Nonlinear Phenomena",
+      "Chaos, Solitons and Fractals",
+      "Chaos, Solitons and Fractals: X",
+      "Nonlinear Analysis: Modelling and Control",
+      "Applicable Nonlinear Analysis",
+      "Discrete and Continuous Dynamical Systems - Series B"
+    ],
+    "authors": [
+      "Terence Tao",
+      "Louis Nirenberg",
+      "Lawrence C. Evans",
+      "Vladimir Arnold",
+      "Cédric Villani"
+    ],
+    "landmark_papers": [
+      {
+        "key": "evans2010partial",
+        "title": "Partial Differential Equations",
+        "authors": [
+          "Lawrence C. Evans"
+        ],
+        "year": 2010,
+        "journal": "American Mathematical Society (Graduate Studies in Mathematics)",
+        "doi": "10.1090/gsm/019"
+      },
+      {
+        "key": "lorenz1963deterministic",
+        "title": "Deterministic Nonperiodic Flow",
+        "authors": [
+          "Edward N. Lorenz"
+        ],
+        "year": 1963,
+        "journal": "Journal of the Atmospheric Sciences",
+        "doi": "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2"
+      }
+    ]
+  }
+]

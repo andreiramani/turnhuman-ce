@@ -1,0 +1,80 @@
+[
+  {
+    "__prompt__": "Role: Systems, Distributed Computing & Networking Specialist.\nTask: Classify distributed consensus, virtualization, cloud computing, and protocols."
+  },
+  {
+    "subfield_id": "distributed_consensus_cloud",
+    "subfield_name": "Distributed Systems & Cloud Computing",
+    "discipline": "computer_science",
+    "keywords": [
+      "distributed systems",
+      "cloud computing",
+      "consensus protocol",
+      "paxos",
+      "raft",
+      "byzantine fault tolerance",
+      "mapreduce",
+      "microservices",
+      "kubernetes",
+      "virtualization",
+      "low latency",
+      "fault tolerance",
+      "load balancing",
+      "consistency model"
+    ],
+    "topics": [
+      "Byzantine Fault-Tolerant State Machine Replication",
+      "Serverless Ephemeral Compute Scheduling",
+      "Multi-Tenant Container Isolation and Hypervisors",
+      "Eventual Consistency in Geo-Replicated Datastores",
+      "Software-Defined Network Topology Optimization"
+    ],
+    "journals": [
+      "Journal of Parallel and Distributed Computing",
+      "IEEE Transactions on Cloud Computing",
+      "IEEE Transactions on Parallel and Distributed Systems",
+      "Cluster Computing",
+      "Distributed and Parallel Databases",
+      "Distributed Computing",
+      "International Journal of Networked and Distributed Computing",
+      "Journal of Cloud Computing",
+      "Journal of Supercomputing",
+      "Peer-to-Peer Networking and Applications",
+      "ACM Transactions on Parallel Computing",
+      "Advances in Distributed Computing and Artificial Intelligence Journal",
+      "Supercomputing Frontiers and Innovations",
+      "International Journal of Cloud Computing",
+      "ACM Transactions on Architecture and Code Optimization"
+    ],
+    "authors": [
+      "Leslie Lamport",
+      "Jeffrey Dean",
+      "Sanjay Ghemawat",
+      "Ion Stoica",
+      "Matei Zaharia"
+    ],
+    "landmark_papers": [
+      {
+        "key": "lamport1998part",
+        "title": "The Part-Time Parliament",
+        "authors": [
+          "Leslie Lamport"
+        ],
+        "year": 1998,
+        "journal": "ACM Transactions on Computer Systems",
+        "doi": "10.1145/279227.279229"
+      },
+      {
+        "key": "dean2008mapreduce",
+        "title": "MapReduce: Simplified Data Processing on Large Clusters",
+        "authors": [
+          "Jeffrey Dean",
+          "Sanjay Ghemawat"
+        ],
+        "year": 2008,
+        "journal": "Communications of the ACM",
+        "doi": "10.1145/1327452.1327492"
+      }
+    ]
+  }
+]

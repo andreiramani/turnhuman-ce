@@ -1,0 +1,52 @@
+{
+  "__prompt__": "Role: Ruleset Versioning & Metadata Curator.\nTask: Maintain semantic versioning, integrity status, supported language catalog, and changelog audit trail for TurnHuman rules repository.\nNegative Prompting (Strict Alignment):\n- Maintain RFC 8259 JSON validity.\n- Increment semantic version (major.minor.patch) upon any schema change.",
+  "version": "3.1.0",
+  "name": "TurnHuman Academic Bilingual Ruleset",
+  "release_date": "2026-11-05",
+  "status": "production",
+  "integrity": {
+    "status": "verified",
+    "rfc_8259_compliant": true,
+    "prompt_injection_guarded": true,
+    "decoupled_architecture": true
+  },
+  "supported_languages": [
+    "en",
+    "id"
+  ],
+  "disciplines": [
+    "computer_science",
+    "engineering_physics",
+    "mathematics_statistics",
+    "medical_life_sciences",
+    "quantitative_finance"
+  ],
+  "lexicon_stats": {
+    "en_synonyms_count": 4051,
+    "id_synonyms_count": 81,
+    "taxonomy_files_count": 15,
+    "taxonomy_subfields_count": 18
+  },
+  "changelog": {
+    "3.1.0": {
+      "date": "2026-11-05",
+      "summary": "Minor Release: Consolidated Applied Health Sciences taxonomy expansion (Public Health, Pharmacy, Nursing with 9 CrossRef DOIs), full Bilingual UI i18n (English/Indonesian), Code Standards modular refactoring (Section 7 <= 450 LOC gatekeeper), and Dynamic Cascading Port Allocation (port_manager.py with smart launchers run.py/bat/ps1). Synchronized authoritative journal master catalog (15 top-tier accredited journals per subfield across 18 subfields) with journal_list.xlsx ground truth."
+    },
+    "3.0.1": {
+      "date": "2026-11-05",
+      "summary": "Applied Health Sciences Taxonomy Expansion: Added 3 new subdisciplines to medical_life_sciences (public_health.json, pharmacy_pharmacology.json, nursing_clinical_care.json) with 9 real landmark papers, CrossRef DOIs, and bilingual EN/ID keywords. Expanded taxonomy to 15 files and 18 subfields."
+    },
+    "3.0.0": {
+      "date": "2026-11-04",
+      "summary": "Asset Decoupling v3.0: Migrated English rules to rules/en/, converted synonyms.json to POS-aware schema (pos, domain, weight, register) preserving all 4051 lexicon entries. Created Indonesian starter pack in rules/id/ with KBBI synonyms, AI phrase neutralizers, demonstratives, PDTB transitions, conjunctions, nominalizations, and voice patterns. Implemented dynamic loader in src/TurnHuman/core/rules.py with __prompt__ stripping and i18n fallback."
+    },
+    "2.1.0": {
+      "date": "2026-08-15",
+      "summary": "Added hierarchical taxonomy for 5 academic disciplines across 12 subfield modules with landmark papers and authoritative citations."
+    },
+    "2.0.0": {
+      "date": "2026-05-01",
+      "summary": "Initial flat English ruleset covering synonym lookup, cliches, determiners, conjunctions, and nominalizations."
+    }
+  }
+}

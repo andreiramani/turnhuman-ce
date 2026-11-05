@@ -1,0 +1,80 @@
+[
+  {
+    "__prompt__": "Role: Quantitative Finance & Derivatives Pricing Specialist.\nTask: Classify Black-Scholes, stochastic volatility, jump diffusion, and interest rate models."
+  },
+  {
+    "subfield_id": "stochastic_volatility_derivatives",
+    "subfield_name": "Stochastic Calculus & Derivative Valuation",
+    "discipline": "quantitative_finance",
+    "keywords": [
+      "option pricing",
+      "black-scholes",
+      "stochastic calculus",
+      "volatility surface",
+      "implied volatility",
+      "heston model",
+      "monte carlo simulation",
+      "ito lemma",
+      "risk-neutral measure",
+      "martingale",
+      "greeks",
+      "hedging",
+      "american option",
+      "exotic derivatives"
+    ],
+    "topics": [
+      "Stochastic Volatility Calibration under Rough Paths",
+      "Pricing American Options via Dual Martingale Formulations",
+      "Jump-Diffusion Lévy Processes in Equity Markets",
+      "Risk-Neutral Measure Transformation under Girsanov Theorem",
+      "Local Volatility Modeling from Market Quotes"
+    ],
+    "journals": [
+      "Review of Quantitative Finance and Accounting",
+      "Applied Mathematical Finance",
+      "Frontiers of Mathematical Finance",
+      "Journal of Financial Economics",
+      "Mathematical Finance",
+      "Mathematics and Financial Economics",
+      "Review of Derivatives Research",
+      "Review of Financial Economics",
+      "Journal of Derivatives and Quantitative Studies",
+      "Quantitative Finance",
+      "Journal of Financial and Quantitative Analysis",
+      "Journal of Futures Markets",
+      "Annual Review of Financial Economics",
+      "Journal of Derivatives",
+      "Quantitative Finance and Economics"
+    ],
+    "authors": [
+      "Fischer Black",
+      "Myron Scholes",
+      "Robert C. Merton",
+      "Steven L. Heston",
+      "Peter Carr"
+    ],
+    "landmark_papers": [
+      {
+        "key": "black1973pricing",
+        "title": "The Pricing of Options and Corporate Liabilities",
+        "authors": [
+          "Fischer Black",
+          "Myron Scholes"
+        ],
+        "year": 1973,
+        "journal": "Journal of Political Economy",
+        "doi": "10.1086/260062"
+      },
+      {
+        "key": "heston1993closed",
+        "title": "A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options",
+        "authors": [
+          "Steven L. Heston"
+        ],
+        "year": 1993,
+        "journal": "The Review of Financial Studies",
+        "doi": "10.1093/rfs/6.2.327"
+      }
+    ]
+  }
+]

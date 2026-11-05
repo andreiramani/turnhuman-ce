@@ -1,0 +1,83 @@
+# ==============================================================================
+# TurnHuman Community Edition (.gitignore)
+# ==============================================================================
+
+# Python Bytecode & Runtime Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+*.pyd
+
+# Virtual Environments & Conda
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+conda/
+*.conda
+
+# Packaging & Build Artifacts
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit Local Secrets (Keep config.toml for server stability)
+.streamlit/*
+!.streamlit/config.toml
+
+# Environment Secrets & Credentials
+.env
+.env.*
+!.env.example
+secrets.toml
+secrets.json
+secrets.yaml
+*.pem
+*.key
+*.cert
+
+# Operating System Metadata
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*~
+.directory
+
+# IDEs & Editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp
+*.swo
+
+# Temporary & Processing Files
+*.tmp
+*.temp
+temp/
+tmp/
+scratch/
+*.log
+logs/
+*.out

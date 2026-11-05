@@ -1,0 +1,76 @@
+{
+  "__prompt__": "Role: PDTB 2.0 Indonesian Academic Discourse Transition Specialist.\nTask: Classify high-entropy Indonesian discourse connectives into Penn Discourse Treebank 2.0 categories to facilitate macro-syntactic transitions while maintaining logical coherence.\nNegative Prompting (Strict Alignment):\n- Do NOT include informal speech markers (e.g., 'ngomong-ngomong', 'selanjutnya nih').\n- Maintain exact category keys matching PDTB 2.0.\n- Maintain RFC 8259 JSON validity.",
+  "Addition": [
+    "selain itu",
+    "di samping itu",
+    "lebih lanjut",
+    "tambahan pula",
+    "seiring dengan hal tersebut",
+    "sejalan dengan itu",
+    "bahkan",
+    "terlebih lagi",
+    "bersamaan dengan itu",
+    "di sisi lain",
+    "dalam konteks yang serupa",
+    "tidak hanya itu",
+    "selaras dengan temuan tersebut"
+  ],
+  "Contrast": [
+    "kendati demikian",
+    "meskipun demikian",
+    "sebaliknya",
+    "namun demikian",
+    "akan tetapi",
+    "berbeda halnya dengan",
+    "walaupun demikian",
+    "justru sebaliknya",
+    "berlawanan dengan asumsi tersebut",
+    "di sisi yang berlawanan",
+    "namun pada kenyataannya",
+    "kendatipun begitu"
+  ],
+  "Cause_Effect": [
+    "oleh karena itu",
+    "oleh sebab itu",
+    "sebagai konsekuensinya",
+    "dengan demikian",
+    "maka dari itu",
+    "atas dasar tersebut",
+    "akibatnya",
+    "hal ini bermuara pada",
+    "sebagai implikasinya",
+    "berpijak pada alasan tersebut",
+    "secara kausal mengakibatkan"
+  ],
+  "Clarification": [
+    "dengan kata lain",
+    "dalam artian",
+    "secara spesifik",
+    "yakni",
+    "yaitu",
+    "secara lebih rinci",
+    "tepatnya",
+    "dalam pemahaman ini",
+    "secara eksplisit",
+    "dapat didefinisikan sebagai"
+  ],
+  "Sequence": [
+    "pertama-tama",
+    "pada tahap awal",
+    "selanjutnya",
+    "berikutnya",
+    "setelah tahap tersebut",
+    "pada langkah berikutnya",
+    "pada akhirnya",
+    "kemudian",
+    "secara sekuensial"
+  ],
+  "Conclusion": [
+    "secara keseluruhan",
+    "pada kesimpulannya",
+    "dapat disimpulkan bahwa",
+    "secara ringkas",
+    "berdasarkan uraian di atas",
+    "sebagai sintesis akhir"
+  ]
+}

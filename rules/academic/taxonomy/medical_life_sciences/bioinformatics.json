@@ -1,0 +1,116 @@
+[
+  {
+    "__prompt__": "Role: Bioinformatics & Computational Biology Taxonomy Specialist.\nTask: Classify sequence alignment, protein folding, molecular dynamics, and phylogenetic analysis."
+  },
+  {
+    "subfield_id": "structural_bioinformatics_protein",
+    "subfield_name": "Structural Bioinformatics & Macromolecular Modeling",
+    "discipline": "medical_life_sciences",
+    "keywords": [
+      "bioinformatics",
+      "protein folding",
+      "sequence alignment",
+      "blast",
+      "molecular dynamics",
+      "alphafold",
+      "docking",
+      "phylogenetics",
+      "homology modeling",
+      "pdb",
+      "uniprot",
+      "secondary structure",
+      "binding affinity",
+      "macromolecular"
+    ],
+    "topics": [
+      "Deep Learning Prediction of 3D Protein Structures",
+      "All-Atom Molecular Dynamics Conformational Ensembles",
+      "Multiple Sequence Profile Alignment via Hidden Markov Models",
+      "Virtual High-Throughput Ligand Docking Assays",
+      "Phylogenomic Orthology and Parology Dissection"
+    ],
+    "journals": [
+      "Proteins: Structure, Function and Genetics",
+      "Briefings in Bioinformatics",
+      "Journal of Biomolecular Structure and Dynamics",
+      "Journal of Bioinformatics and Computational Biology",
+      "Nature Structural and Molecular Biology",
+      "Biochimica et Biophysica Acta - Proteins and Proteomics",
+      "Current Opinion in Structural Biology",
+      "Protein Science",
+      "Bioinformatics",
+      "Bioinformatics Advances",
+      "Bioinformatics and Biology Insights",
+      "BMC Bioinformatics",
+      "Current Research in Structural Biology",
+      "NAR Genomics and Bioinformatics",
+      "Computational Biology and Chemistry"
+    ],
+    "authors": [
+      "Stephen F. Altschul",
+      "David Baker",
+      "John Jumper",
+      "Demis Hassabis",
+      "Michael Levitt"
+    ],
+    "landmark_papers": [
+      {
+        "key": "jumper2021highly",
+        "title": "Highly Accurate Protein Structure Prediction with AlphaFold",
+        "authors": [
+          "John Jumper",
+          "Richard Evans",
+          "Alexander Pritzel",
+          "Tim Green",
+          "Michael Figurnov",
+          "Olaf Ronneberger",
+          "Kathryn Tunyasuvunakool",
+          "Russ Bates",
+          "Augustin Žídek",
+          "Anna Potapenko",
+          "Alex Bridgland",
+          "Clemens Meyer",
+          "Simon A. A. Kohl",
+          "Andrew J. Ballard",
+          "Andrew Cowie",
+          "Bernardino Romera-Paredes",
+          "Stanislav Nikolov",
+          "Rishub Jain",
+          "Jonas Adler",
+          "Trevor Back",
+          "Stig Petersen",
+          "David Reiman",
+          "Ellen Clancy",
+          "Michal Zielinski",
+          "Martin Steinegger",
+          "Michalina Pacholska",
+          "Tamas Berghammer",
+          "Sebastian Bodenstein",
+          "David Silver",
+          "Oriol Vinyals",
+          "Andrew W. Senior",
+          "Koray Kavukcuoglu",
+          "Pushmeet Kohli",
+          "Demis Hassabis"
+        ],
+        "year": 2021,
+        "journal": "Nature",
+        "doi": "10.1038/s41586-021-03819-2"
+      },
+      {
+        "key": "altschul1990basic",
+        "title": "Basic Local Alignment Search Tool",
+        "authors": [
+          "Stephen F. Altschul",
+          "Warren Gish",
+          "Webb Miller",
+          "Eugene W. Myers",
+          "David J. Lipman"
+        ],
+        "year": 1990,
+        "journal": "Journal of Molecular Biology",
+        "doi": "10.1016/S0022-2836(05)80360-2"
+      }
+    ]
+  }
+]

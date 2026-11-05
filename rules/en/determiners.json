@@ -1,0 +1,202 @@
+{
+  "__prompt__": "Role: Syntactic Variator & Demonstrative Determiner Specialist.\nTask: Rotate articles, demonstratives, and quantifiers to break Turnitin k-gram hashes and vary stylometric surface forms while preserving grammatical number and reference.\nNegative Prompting (Strict Alignment):\n- Do NOT replace singular determiners with plural forms (e.g., 'this' to 'these' with a singular noun).\n- Do NOT introduce colloquial or non-academic terms (e.g., 'a bunch of', 'lots of').\n- Maintain RFC 8259 JSON validity.",
+  "the": [
+    "this",
+    "that",
+    "said",
+    "the specified",
+    "the given",
+    "the aforementioned",
+    "the present"
+  ],
+  "this": [
+    "the",
+    "the present",
+    "such",
+    "said",
+    "the aforementioned",
+    "this specific",
+    "this particular"
+  ],
+  "these": [
+    "the",
+    "such",
+    "the aforementioned",
+    "these specific",
+    "these respective",
+    "the present"
+  ],
+  "that": [
+    "the",
+    "such",
+    "said",
+    "that particular",
+    "that specific",
+    "the given"
+  ],
+  "those": [
+    "the",
+    "such",
+    "those specific",
+    "the aforementioned",
+    "those respective"
+  ],
+  "such": [
+    "said",
+    "the aforementioned",
+    "the specified",
+    "the given",
+    "the particular"
+  ],
+  "several": [
+    "numerous",
+    "a number of",
+    "multiple",
+    "sundry",
+    "various",
+    "a multitude of",
+    "diverse"
+  ],
+  "many": [
+    "numerous",
+    "a considerable number of",
+    "myriad",
+    "copious",
+    "a profusion of",
+    "extensive"
+  ],
+  "some": [
+    "certain",
+    "particular",
+    "select",
+    "sundry",
+    "assorted",
+    "a subset of",
+    "designated"
+  ],
+  "few": [
+    "a limited number of",
+    "a scant handful of",
+    "sparse",
+    "a paucity of",
+    "a scarce number of"
+  ],
+  "most": [
+    "the majority of",
+    "the preponderance of",
+    "the greater part of",
+    "the bulk of",
+    "predominantly the"
+  ],
+  "all": [
+    "every",
+    "each and every",
+    "the entirety of",
+    "the totality of",
+    "all of the",
+    "the complete set of"
+  ],
+  "each": [
+    "every",
+    "any given",
+    "every individual",
+    "each respective",
+    "each discrete",
+    "each particular"
+  ],
+  "every": [
+    "each",
+    "any given",
+    "all",
+    "every single",
+    "each respective",
+    "each discrete"
+  ],
+  "both": [
+    "the two",
+    "each of the two",
+    "the pair of",
+    "the dual",
+    "the two respective"
+  ],
+  "any": [
+    "whichever",
+    "any given",
+    "an arbitrary",
+    "any particular",
+    "whichever designated"
+  ],
+  "another": [
+    "an additional",
+    "a further",
+    "one more",
+    "a supplementary",
+    "a subsequent"
+  ],
+  "other": [
+    "alternative",
+    "additional",
+    "further",
+    "supplementary",
+    "ancillary",
+    "collateral"
+  ],
+  "a": [
+    "a certain",
+    "a given",
+    "a particular",
+    "a single",
+    "an individual",
+    "a designated"
+  ],
+  "an": [
+    "a certain",
+    "a given",
+    "a particular",
+    "a single",
+    "an individual",
+    "a designated"
+  ],
+  "much": [
+    "a substantial volume of",
+    "an appreciable measure of",
+    "a great deal of",
+    "a significant degree of"
+  ],
+  "little": [
+    "a marginal quantum of",
+    "a negligible amount of",
+    "a scant degree of",
+    "minimal"
+  ],
+  "numerous": [
+    "copious",
+    "multiple",
+    "manifold",
+    "myriad",
+    "a multiplicity of",
+    "diverse"
+  ],
+  "various": [
+    "disparate",
+    "distinct",
+    "heterogeneous",
+    "manifold",
+    "sundry",
+    "divergent"
+  ],
+  "certain": [
+    "specific",
+    "designated",
+    "particular",
+    "stipulated",
+    "individualized"
+  ],
+  "no": [
+    "neither",
+    "not any",
+    "zero",
+    "not a single",
+    "none of the"
+  ]
+}

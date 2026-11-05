@@ -1,0 +1,60 @@
+{
+  "__prompt__": "Role: Macro-Discourse Marker & Rhetorical Signpost Specialist.\nTask: Rotate sentence-initial and paragraph-initial macro-connectives to eliminate stylistic monotony and disrupt predictive language model paragraph signatures.\nNegative Prompting (Strict Alignment):\n- Do NOT use casual conversational openers (e.g., 'So', 'Well', 'Basically').\n- Organize strictly by rhetorical move.\n- Maintain RFC 8259 JSON validity.",
+  "framing": [
+    "In this context,",
+    "From this analytical vantage point,",
+    "Within this conceptual framework,",
+    "Against this theoretical backdrop,",
+    "Viewed through this methodological prism,",
+    "In evaluating this dimension,",
+    "Examined from this empirical perspective,",
+    "Under these foundational premises,"
+  ],
+  "elaboration": [
+    "To extrapolate further from this finding,",
+    "Building directly upon this observation,",
+    "Extending this line of reasoning,",
+    "In developing this conceptual point,",
+    "As a further amplification of this principle,",
+    "Delving deeper into this structural mechanism,",
+    "Pursuing this analytical trajectory,"
+  ],
+  "causality": [
+    "Under these deterministic constraints,",
+    "As a direct consequence of this dynamic,",
+    "Owing to these underlying interactions,",
+    "Precipitated by these empirical factors,",
+    "In consequence of these operative conditions,",
+    "By virtue of these governing mechanisms,"
+  ],
+  "contrastive": [
+    "Notwithstanding these preliminary indications,",
+    "Viewed from an antithetical perspective,",
+    "In marked contrast to these assumptions,",
+    "Departing from conventional interpretations,",
+    "Counterbalancing this observation,",
+    "When juxtaposed with alternative evidence,"
+  ],
+  "evidence_introduction": [
+    "Empirical examination reveals that",
+    "Corroborating data demonstrate that",
+    "The observational records attest that",
+    "Systematic interrogation indicates that",
+    "Quantitative measurements corroborate that",
+    "The evidentiary record confirms that"
+  ],
+  "summarization": [
+    "To encapsulate these findings succinctly,",
+    "In the final analytical reckoning,",
+    "Distilling these disparate observations,",
+    "Taken in collective synthesis,",
+    "Synthesizing these empirical dimensions,"
+  ],
+  "transition": [
+    "Turning now to the contiguous question of",
+    "Having delineated this foundational premise, attention shifts to",
+    "Shifting the locus of inquiry toward",
+    "Progressing from this baseline formulation to",
+    "Passing from this preliminary phase to"
+  ]
+}

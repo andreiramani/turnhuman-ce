@@ -1,0 +1,110 @@
+[
+  {
+    "__prompt__": "Role: Public Health & Epidemiology Taxonomy Specialist.\nTask: Classify disease surveillance, biostatistics, maternal and child health, global health systems, and epidemiological risk factor analysis."
+  },
+  {
+    "subfield_id": "epidemiology_public_health",
+    "subfield_name": "Public Health, Epidemiology & Global Health Systems",
+    "discipline": "medical_life_sciences",
+    "keywords": [
+      "epidemiology",
+      "public health",
+      "surveillance",
+      "disease prevention",
+      "biostatistics",
+      "incidence",
+      "prevalence",
+      "morbidity",
+      "mortality",
+      "cohort study",
+      "case-control study",
+      "odds ratio",
+      "relative risk",
+      "health policy",
+      "maternal and child health",
+      "environmental health",
+      "health equity",
+      "universal health coverage",
+      "social determinants of health",
+      "stunting",
+      "infectious disease transmission",
+      "vaccine hesitancy",
+      "health economics",
+      "quality-adjusted life year",
+      "dalys",
+      "risk factor",
+      "epidemiologi",
+      "kesehatan masyarakat",
+      "surveilans",
+      "faktor risiko",
+      "pencegahan penyakit",
+      "angka kematian ibu",
+      "gizi masyarakat"
+    ],
+    "topics": [
+      "Population-Level Epidemiological Surveillance and Spatial Disease Mapping",
+      "Evaluating Socioeconomic Determinants of Health Disparities and Healthcare Inequities",
+      "Mathematical Modeling of Infectious Disease Transmission and Community Intervention Dynamics",
+      "Maternal, Neonatal, and Child Health Intervention Coverage in Low-Resource Settings",
+      "Cost-Effectiveness Analyses of Universal Health Coverage and Preventive Healthcare Policies"
+    ],
+    "journals": [
+      "The Lancet Public Health",
+      "Global Health, Epidemiology and Genomics",
+      "Journal of Epidemiology and Global Health",
+      "Clinical Epidemiology and Global Health",
+      "American Journal of Epidemiology",
+      "Annals of Epidemiology",
+      "Australian and New Zealand Journal of Public Health",
+      "Epidemiology and Infection",
+      "International Journal of Epidemiology",
+      "Journal of Public Health Policy",
+      "American Journal of Public Health",
+      "Revista Panamericana de Salud Publica/Pan American Journal of Public Health",
+      "Bulletin of the World Health Organization",
+      "The Lancet HIV",
+      "The Lancet Planetary Health"
+    ],
+    "authors": [
+      "Sir Austin Bradford Hill",
+      "Sir Richard Doll",
+      "Donald A. Henderson",
+      "Gro Harlem Brundtland",
+      "Christopher J. L. Murray",
+      "Hans Rosling"
+    ],
+    "landmark_papers": [
+      {
+        "key": "hill1965environment",
+        "title": "The Environment and Disease: Association or Causation?",
+        "authors": [
+          "Austin Bradford Hill"
+        ],
+        "year": 1965,
+        "journal": "Proceedings of the Royal Society of Medicine",
+        "doi": "10.1177/003591576505800503"
+      },
+      {
+        "key": "murray2020global",
+        "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019",
+        "authors": [
+          "Christopher J. L. Murray",
+          "Theo Vos"
+        ],
+        "year": 2020,
+        "journal": "The Lancet",
+        "doi": "10.1016/S0140-6736(20)30925-9"
+      },
+      {
+        "key": "rose1985sick",
+        "title": "Sick Individuals and Sick Populations",
+        "authors": [
+          "Geoffrey Rose"
+        ],
+        "year": 1985,
+        "journal": "International Journal of Epidemiology",
+        "doi": "10.1093/ije/14.1.32"
+      }
+    ]
+  }
+]

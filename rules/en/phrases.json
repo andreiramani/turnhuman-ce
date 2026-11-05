@@ -1,0 +1,861 @@
+[
+  {
+    "__prompt__": "Role: High-Entropy Scholarly Multi-Word Rewrite Specialist.\nTask: Neutralize high-probability AI academic clichés and conventional formulaic patterns by substituting them with sophisticated, lower-probability scholarly equivalents. Every replacement breaks 4-6 contiguous 5-gram Winnowing rolling hashes while elevating corpus perplexity and reducing stylometric uniformity.\nNegative Prompting (Strict Alignment):\n- All search patterns MUST be enclosed in '\\\\b' regex word boundaries.\n- Replacements must preserve grammatical tense, number, and syntactic category.\n- Do NOT use informal, casual, or journalistic prose.\n- Maintain strict RFC 8259 JSON validity."
+  },
+  [
+    "\\bprevious studies have shown\\b",
+    "prior investigations have substantiated"
+  ],
+  [
+    "\\bprevious studies have suggested\\b",
+    "earlier inquiries have posited"
+  ],
+  [
+    "\\bprevious research has shown\\b",
+    "antecedent scholarship has established"
+  ],
+  [
+    "\\bhas been widely studied\\b",
+    "has been the subject of extensive inquiry"
+  ],
+  [
+    "\\bhave been widely studied\\b",
+    "have undergone rigorous and sustained investigation"
+  ],
+  [
+    "\\bit has been reported that\\b",
+    "extant literature attests that"
+  ],
+  [
+    "\\baccording to recent research\\b",
+    "as corroborated by contemporary scholarship"
+  ],
+  [
+    "\\baccording to previous studies\\b",
+    "in accord with prior scholarly findings"
+  ],
+  [
+    "\\bis well documented\\b",
+    "has been amply chronicled in the literature"
+  ],
+  [
+    "\\bare well documented\\b",
+    "stand thoroughly documented across the literature"
+  ],
+  [
+    "\\bas mentioned earlier\\b",
+    "as alluded to in the preceding discussion"
+  ],
+  [
+    "\\bas previously discussed\\b",
+    "as explicated in the foregoing section"
+  ],
+  [
+    "\\bas stated previously\\b",
+    "in accordance with the earlier formulation"
+  ],
+  [
+    "\\bthe existing literature\\b",
+    "the prevailing body of scholarship"
+  ],
+  [
+    "\\ba growing body of literature\\b",
+    "an expanding corpus of empirical scholarship"
+  ],
+  [
+    "\\bin recent years there has been\\b",
+    "contemporary inquiries have witnessed"
+  ],
+  [
+    "\\brecent studies have highlighted\\b",
+    "contemporary scholarship has underscored"
+  ],
+  [
+    "\\blittle is known about\\b",
+    "scant empirical clarity exists regarding"
+  ],
+  [
+    "\\bhas received considerable attention\\b",
+    "has garnered pronounced investigative focus"
+  ],
+  [
+    "\\bhave received significant attention\\b",
+    "have attracted substantial scholarly scrutiny"
+  ],
+  [
+    "\\bto the best of our knowledge\\b",
+    "insofar as the accessible literature reveals"
+  ],
+  [
+    "\\bto date, no study has\\b",
+    "hitherto, empirical inquiry has omitted to"
+  ],
+  [
+    "\\bconflicting results have been reported\\b",
+    "divergent findings populate the existing discourse"
+  ],
+  [
+    "\\bthe general consensus is that\\b",
+    "the prevailing scholarly paradigm holds that"
+  ],
+  [
+    "\\bhas long been recognized\\b",
+    "has historically been acknowledged"
+  ],
+  [
+    "\\ba number of researchers have\\b",
+    "multiple investigators have independently"
+  ],
+  [
+    "\\bas demonstrated by\\b",
+    "as substantiated through the work of"
+  ],
+  [
+    "\\bpioneered by\\b",
+    "originated through the foundational contributions of"
+  ],
+  [
+    "\\bthe foundational work of\\b",
+    "the seminal treatise by"
+  ],
+  [
+    "\\bin the seminal paper by\\b",
+    "within the paradigm-defining publication of"
+  ],
+  [
+    "\\bhas attracted increasing interest\\b",
+    "has elicited burgeoning analytical interest"
+  ],
+  [
+    "\\bremains an open question\\b",
+    "persists as an unresolved theoretical quandary"
+  ],
+  [
+    "\\blimited research has focused on\\b",
+    "a paucity of scholarship has interrogated"
+  ],
+  [
+    "\\bwas carried out\\b",
+    "was undertaken"
+  ],
+  [
+    "\\bwere carried out\\b",
+    "were systematically executed"
+  ],
+  [
+    "\\bin order to\\b",
+    "with the objective of"
+  ],
+  [
+    "\\bby means of\\b",
+    "through recourse to"
+  ],
+  [
+    "\\bwith respect to\\b",
+    "vis-à-vis"
+  ],
+  [
+    "\\bwas conducted\\b",
+    "was effectuated"
+  ],
+  [
+    "\\bwere conducted\\b",
+    "were methodically operationalized"
+  ],
+  [
+    "\\btakes into account\\b",
+    "gives due consideration to"
+  ],
+  [
+    "\\btake into account\\b",
+    "incorporate into the operational calculus"
+  ],
+  [
+    "\\btaking into account\\b",
+    "factoring into the analytical calculus"
+  ],
+  [
+    "\\bis based on\\b",
+    "draws its foundations from"
+  ],
+  [
+    "\\bare based on\\b",
+    "derive their conceptual footing from"
+  ],
+  [
+    "\\bwas based on\\b",
+    "found its grounding in"
+  ],
+  [
+    "\\bfor the purpose of\\b",
+    "toward the explicit end of"
+  ],
+  [
+    "\\bwith the aim of\\b",
+    "with the deliberate intent of"
+  ],
+  [
+    "\\bit is necessary to\\b",
+    "methodological rigor demands that we"
+  ],
+  [
+    "\\bcan be seen as\\b",
+    "lends itself to conceptualization as"
+  ],
+  [
+    "\\bcan be defined as\\b",
+    "is operationally characterized as"
+  ],
+  [
+    "\\bwas calculated using\\b",
+    "was computed by means of"
+  ],
+  [
+    "\\bwere measured using\\b",
+    "were quantified through recourse to"
+  ],
+  [
+    "\\bdata were collected\\b",
+    "empirical observations were systematically collated"
+  ],
+  [
+    "\\bdata was collected\\b",
+    "empirical material was gathered"
+  ],
+  [
+    "\\bthe proposed method\\b",
+    "the articulated protocol"
+  ],
+  [
+    "\\bthe proposed model\\b",
+    "the formulated theoretical architecture"
+  ],
+  [
+    "\\bthe proposed approach\\b",
+    "the introduced methodological framework"
+  ],
+  [
+    "\\bwas applied to\\b",
+    "was deployed across"
+  ],
+  [
+    "\\bwere applied to\\b",
+    "were systematically implemented upon"
+  ],
+  [
+    "\\bin accordance with\\b",
+    "congruent with the procedural tenets of"
+  ],
+  [
+    "\\bundertaken in this study\\b",
+    "pursued within this present investigation"
+  ],
+  [
+    "\\bunder identical conditions\\b",
+    "under invariant experimental parameters"
+  ],
+  [
+    "\\bto ensure accuracy\\b",
+    "to safeguard measurement fidelity"
+  ],
+  [
+    "\\bto minimize error\\b",
+    "to attenuate observational discrepancy"
+  ],
+  [
+    "\\ba series of experiments\\b",
+    "a structured regimen of experimental trials"
+  ],
+  [
+    "\\bwas evaluated by\\b",
+    "was quantitatively appraised via"
+  ],
+  [
+    "\\bwere evaluated by\\b",
+    "underwent systematic appraisal through"
+  ],
+  [
+    "\\bthe results indicate that\\b",
+    "the empirical findings bear witness to"
+  ],
+  [
+    "\\bthe results show that\\b",
+    "the data demonstrably establish that"
+  ],
+  [
+    "\\bthe results demonstrate that\\b",
+    "the outcomes manifest clearly that"
+  ],
+  [
+    "\\bit can be seen that\\b",
+    "it becomes manifest that"
+  ],
+  [
+    "\\bas shown in Figure\\b",
+    "as rendered visible in Figure"
+  ],
+  [
+    "\\bas shown in Table\\b",
+    "as delineated in Table"
+  ],
+  [
+    "\\bas can be seen from\\b",
+    "as is discernible upon inspection of"
+  ],
+  [
+    "\\bit was found that\\b",
+    "it was ascertained that"
+  ],
+  [
+    "\\ba significant increase\\b",
+    "an appreciable escalation"
+  ],
+  [
+    "\\ba significant decrease\\b",
+    "a marked attenuation"
+  ],
+  [
+    "\\ba significant difference\\b",
+    "a conspicuous divergence"
+  ],
+  [
+    "\\bis proportional to\\b",
+    "scales commensurately with"
+  ],
+  [
+    "\\bare proportional to\\b",
+    "exhibit commensurate scaling with"
+  ],
+  [
+    "\\bthe data suggests that\\b",
+    "the collected observations intimate that"
+  ],
+  [
+    "\\bthe data suggest that\\b",
+    "the empirical readings indicate that"
+  ],
+  [
+    "\\bit is evident that\\b",
+    "it stands palpably demonstrated that"
+  ],
+  [
+    "\\bshows a positive correlation\\b",
+    "exhibits a monotonic positive correspondence"
+  ],
+  [
+    "\\bshows a negative correlation\\b",
+    "reveals an inverse covariation"
+  ],
+  [
+    "\\bno significant difference\\b",
+    "no statistically discernible divergence"
+  ],
+  [
+    "\\boutperformed the baseline\\b",
+    "surpassed the benchmark configuration"
+  ],
+  [
+    "\\bachieved high accuracy\\b",
+    "attained superior classification fidelity"
+  ],
+  [
+    "\\byielded promising results\\b",
+    "generated auspicious empirical outcomes"
+  ],
+  [
+    "\\bshowed a notable trend\\b",
+    "manifested a perceptible trajectory"
+  ],
+  [
+    "\\breached a plateau\\b",
+    "approached an asymptotic regime"
+  ],
+  [
+    "\\bexhibited a marked variation\\b",
+    "demonstrated pronounced variance"
+  ],
+  [
+    "\\bcorresponded closely with\\b",
+    "aligned harmoniously with"
+  ],
+  [
+    "\\bcontrasts sharply with\\b",
+    "stands in stark contradistinction to"
+  ],
+  [
+    "\\bthe observed values\\b",
+    "the empirical measurements"
+  ],
+  [
+    "\\bthe simulated results\\b",
+    "the computational model outcomes"
+  ],
+  [
+    "\\bit is worth noting that\\b",
+    "it merits explicit underscoring that"
+  ],
+  [
+    "\\bit is important to note that\\b",
+    "it is of non-trivial consequence to observe that"
+  ],
+  [
+    "\\bthis can be attributed to\\b",
+    "this phenomenon may be imputed to"
+  ],
+  [
+    "\\bthese findings can be attributed to\\b",
+    "these empirical observations may be ascribed to"
+  ],
+  [
+    "\\bplays a crucial role\\b",
+    "occupies a pivotal station"
+  ],
+  [
+    "\\bplay a crucial role\\b",
+    "exercise a decisive influence"
+  ],
+  [
+    "\\bplays an important role\\b",
+    "exerts an appreciable bearing"
+  ],
+  [
+    "\\bplays a key role\\b",
+    "serves as an indispensable linchpin"
+  ],
+  [
+    "\\bis consistent with\\b",
+    "accords harmoniously with"
+  ],
+  [
+    "\\bare consistent with\\b",
+    "exhibit unassailable concordance with"
+  ],
+  [
+    "\\bin good agreement with\\b",
+    "in satisfactory concordance with"
+  ],
+  [
+    "\\bit should be emphasized that\\b",
+    "analytical rigor necessitates accentuating that"
+  ],
+  [
+    "\\bsheds light on\\b",
+    "illuminates the underlying mechanics of"
+  ],
+  [
+    "\\bshed light on\\b",
+    "afford analytical clarity regarding"
+  ],
+  [
+    "\\bleads to the conclusion that\\b",
+    "compels the deduction that"
+  ],
+  [
+    "\\bprovides strong evidence that\\b",
+    "furnishes compelling corroboration that"
+  ],
+  [
+    "\\bcan be explained by\\b",
+    "is explicable in terms of"
+  ],
+  [
+    "\\blends support to\\b",
+    "lends substantive credence to"
+  ],
+  [
+    "\\braises the question of\\b",
+    "provokes the analytical inquiry whether"
+  ],
+  [
+    "\\bdoes not necessarily mean\\b",
+    "does not intrinsically entail"
+  ],
+  [
+    "\\bcannot be ruled out\\b",
+    "cannot be summarily dismissed"
+  ],
+  [
+    "\\ba plausible explanation is\\b",
+    "a tenable hypothesis posits"
+  ],
+  [
+    "\\bin sharp contrast to\\b",
+    "in marked juxtaposition with"
+  ],
+  [
+    "\\bfrom a theoretical perspective\\b",
+    "viewed through a theoretical prism"
+  ],
+  [
+    "\\bfrom a practical standpoint\\b",
+    "from an operational vantage point"
+  ],
+  [
+    "\\bunderscores the importance of\\b",
+    "accentuates the paramount necessity of"
+  ],
+  [
+    "\\bhas profound implications for\\b",
+    "bears far-reaching ramifications vis-à-vis"
+  ],
+  [
+    "\\bin conclusion\\b",
+    "to encapsulate the principal findings"
+  ],
+  [
+    "\\bin summary\\b",
+    "in brief distillation"
+  ],
+  [
+    "\\bto summarize\\b",
+    "to synthesize the overarching thesis"
+  ],
+  [
+    "\\bto sum up\\b",
+    "synthesizing the preceding arguments"
+  ],
+  [
+    "\\bfurther research is needed\\b",
+    "subsequent empirical investigation is warranted"
+  ],
+  [
+    "\\bfurther research is required\\b",
+    "prospective scholarly inquiry remains imperative"
+  ],
+  [
+    "\\bfuture work should\\b",
+    "prospective research endeavors ought to"
+  ],
+  [
+    "\\bfuture studies should focus on\\b",
+    "subsequent inquiries might profitably center upon"
+  ],
+  [
+    "\\bto conclude\\b",
+    "in terminal synthesis"
+  ],
+  [
+    "\\ball in all\\b",
+    "taking the collective evidence into account"
+  ],
+  [
+    "\\btaken together, these results\\b",
+    "viewed in comprehensive aggregate, these outcomes"
+  ],
+  [
+    "\\bthese findings suggest that\\b",
+    "these empirical deductions substantiate the hypothesis that"
+  ],
+  [
+    "\\bthis study provides valuable insights\\b",
+    "the present investigation yields substantive theoretical contributions"
+  ],
+  [
+    "\\blays the groundwork for\\b",
+    "furnishes the foundational substrate for"
+  ],
+  [
+    "\\bopens up new avenues for\\b",
+    "inaugurates novel trajectories for"
+  ],
+  [
+    "\\bhighlights the need for\\b",
+    "accentuates the urgent desideratum of"
+  ],
+  [
+    "\\bit appears that\\b",
+    "it would seem plausible that"
+  ],
+  [
+    "\\bit seems that\\b",
+    "the evidence tentatively suggests that"
+  ],
+  [
+    "\\bit is possible that\\b",
+    "one may reasonably conjecture that"
+  ],
+  [
+    "\\bit is likely that\\b",
+    "there exists a pronounced likelihood that"
+  ],
+  [
+    "\\bit is probable that\\b",
+    "probability dictates that"
+  ],
+  [
+    "\\bto some extent\\b",
+    "to a nontrivial degree"
+  ],
+  [
+    "\\bto a certain extent\\b",
+    "within circumscribed bounds"
+  ],
+  [
+    "\\bone might argue that\\b",
+    "a defensible proposition holds that"
+  ],
+  [
+    "\\bit could be suggested that\\b",
+    "it is tenable to propound that"
+  ],
+  [
+    "\\bmight be expected to\\b",
+    "would ostensibly be anticipated to"
+  ],
+  [
+    "\\btends to indicate\\b",
+    "manifests an inclination toward signifying"
+  ],
+  [
+    "\\bthere is a chance that\\b",
+    "there resides a measurable contingency that"
+  ],
+  [
+    "\\bunder certain circumstances\\b",
+    "contingent upon specific boundary conditions"
+  ],
+  [
+    "\\bmay have an impact on\\b",
+    "may exert a measurable modulation upon"
+  ],
+  [
+    "\\bcould potentially lead to\\b",
+    "possesses the latent propensity to precipitate"
+  ],
+  [
+    "\\bthere is reason to believe that\\b",
+    "substantive grounds exist for asserting that"
+  ],
+  [
+    "\\ba large number of\\b",
+    "a profusion of"
+  ],
+  [
+    "\\ba great deal of\\b",
+    "a substantial quantum of"
+  ],
+  [
+    "\\ba wide range of\\b",
+    "a broad gamut of"
+  ],
+  [
+    "\\ba wide variety of\\b",
+    "a diverse spectrum of"
+  ],
+  [
+    "\\bdue to the fact that\\b",
+    "on the grounds that"
+  ],
+  [
+    "\\bas a result of\\b",
+    "consequent upon"
+  ],
+  [
+    "\\bin comparison with\\b",
+    "when juxtaposed with"
+  ],
+  [
+    "\\bcompared to\\b",
+    "evaluated against"
+  ],
+  [
+    "\\bin terms of\\b",
+    "with respect to the parameter of"
+  ],
+  [
+    "\\bon the other hand\\b",
+    "viewed from a countervailing posture"
+  ],
+  [
+    "\\bon the one hand\\b",
+    "from an initial analytical vantage"
+  ],
+  [
+    "\\bin the case of\\b",
+    "in the specific context of"
+  ],
+  [
+    "\\bwith the exception of\\b",
+    "barring the anomalous presence of"
+  ],
+  [
+    "\\bin the majority of cases\\b",
+    "in the preponderance of instances"
+  ],
+  [
+    "\\ba significant amount of\\b",
+    "an appreciable measure of"
+  ],
+  [
+    "\\ba small number of\\b",
+    "a circumscribed minority of"
+  ],
+  [
+    "\\ba substantial portion of\\b",
+    "a consequential fraction of"
+  ],
+  [
+    "\\bin parallel with\\b",
+    "concurrently alongside"
+  ],
+  [
+    "\\bby comparison\\b",
+    "under comparative appraisal"
+  ],
+  [
+    "\\bin the same vein\\b",
+    "along an identical conceptual trajectory"
+  ],
+  [
+    "\\bdelve into\\b",
+    "scrutinize"
+  ],
+  [
+    "\\bdelves into\\b",
+    "interrogates"
+  ],
+  [
+    "\\bdelved into\\b",
+    "scrutinized"
+  ],
+  [
+    "\\bdelving into\\b",
+    "interrogating"
+  ],
+  [
+    "\\bdelve into the multifaceted\\b",
+    "examine the diverse"
+  ],
+  [
+    "\\ba testament to\\b",
+    "an empirical demonstration of"
+  ],
+  [
+    "\\bstands as a testament to\\b",
+    "serves as corroborating evidence of"
+  ],
+  [
+    "\\brich tapestry\\b",
+    "heterogeneous complex"
+  ],
+  [
+    "\\ba rich tapestry of\\b",
+    "a complex matrix of"
+  ],
+  [
+    "\\bbeacon of hope\\b",
+    "promising methodological framework"
+  ],
+  [
+    "\\bpave the way for\\b",
+    "establish foundational precedents for"
+  ],
+  [
+    "\\bpaves the way for\\b",
+    "establishes foundational precedents for"
+  ],
+  [
+    "\\bpaved the way for\\b",
+    "established foundational precedents for"
+  ],
+  [
+    "\\bpaving the way for\\b",
+    "establishing foundational precedents for"
+  ],
+  [
+    "\\bunleash the potential of\\b",
+    "harness the operational capabilities of"
+  ],
+  [
+    "\\bharness the power of\\b",
+    "exploit the functional properties of"
+  ],
+  [
+    "\\bdouble-edged sword\\b",
+    "dialectic duality with trade-offs"
+  ],
+  [
+    "\\ba plethora of\\b",
+    "an extensive manifold of"
+  ],
+  [
+    "\\bever-evolving landscape\\b",
+    "dynamic developmental domain"
+  ],
+  [
+    "\\bin today's fast-paced world\\b",
+    "within contemporary operational contexts"
+  ],
+  [
+    "\\brapidly evolving landscape\\b",
+    "dynamically shifting domain"
+  ],
+  [
+    "\\bholistic approach\\b",
+    "comprehensive multi-faceted methodology"
+  ],
+  [
+    "\\bparadigm shift\\b",
+    "fundamental epistemological reorientation"
+  ],
+  [
+    "\\bgame-changer\\b",
+    "transformative methodological advance"
+  ],
+  [
+    "\\bgroundbreaking discovery\\b",
+    "substantive empirical finding"
+  ],
+  [
+    "\\brock-solid\\b",
+    "empirically robust"
+  ],
+  [
+    "\\bcutting-edge\\b",
+    "state-of-the-art"
+  ],
+  [
+    "\\bstate of the art\\b",
+    "contemporary benchmark standard"
+  ],
+  [
+    "\\bseamless integration\\b",
+    "harmonious algorithmic synthesis"
+  ],
+  [
+    "\\bseamlessly integrated\\b",
+    "harmoniously unified"
+  ],
+  [
+    "\\bwithout further ado\\b",
+    "proceeding directly to the analysis"
+  ],
+  [
+    "\\bit is crucial to remember that\\b",
+    "analytical prudence requires noting that"
+  ],
+  [
+    "\\bplays an indispensable role\\b",
+    "fulfills an irreplacable functional imperative"
+  ],
+  [
+    "\\bvibrant ecosystem\\b",
+    "dynamic operational environment"
+  ],
+  [
+    "\\bmultifaceted nature of\\b",
+    "complex structural heterogeneity of"
+  ],
+  [
+    "\\bcornerstone of\\b",
+    "foundational pillar of"
+  ],
+  [
+    "\\bdeep dive into\\b",
+    "rigorous granular dissection of"
+  ],
+  [
+    "\\btake a deep dive into\\b",
+    "conduct an exhaustive investigation into"
+  ]
+]

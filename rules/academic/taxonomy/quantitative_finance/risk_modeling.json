@@ -1,0 +1,85 @@
+[
+  {
+    "__prompt__": "Role: Quantitative Risk Management Specialist.\nTask: Classify Value at Risk, Expected Shortfall, copulas, and credit risk modeling."
+  },
+  {
+    "subfield_id": "systemic_risk_extreme_value",
+    "subfield_name": "Financial Risk Modeling & Extreme Value Theory",
+    "discipline": "quantitative_finance",
+    "keywords": [
+      "risk modeling",
+      "value at risk",
+      "expected shortfall",
+      "copula",
+      "stress testing",
+      "credit risk",
+      "counterparty risk",
+      "extreme value theory",
+      "garch",
+      "portfolio optimization",
+      "basel iii",
+      "tail risk",
+      "liquidity risk",
+      "cva"
+    ],
+    "topics": [
+      "Coherent Risk Measures and Expected Shortfall Bounds",
+      "Multivariate Extreme Value Copula Formulations",
+      "Credit Valuation Adjustment (CVA) with Wrong-Way Risk",
+      "High-Frequency GARCH Volatility Forecasting",
+      "Macroprudential Systemic Contagion Networks"
+    ],
+    "journals": [
+      "Advances in Applied Probability",
+      "Econometrics and Statistics",
+      "GENEVA Risk and Insurance Review",
+      "Journal of Applied Probability",
+      "Journal of Financial Econometrics",
+      "Journal of Risk and Insurance",
+      "Journal of Risk and Uncertainty",
+      "Methodology and Computing in Applied Probability",
+      "Risk Management and Insurance Review",
+      "Journal of Banking and Finance",
+      "Journal of Financial Stability",
+      "Journal of Risk Analysis and Crisis Response",
+      "Journal of Applied Probability and Statistics",
+      "International Journal of Banking and Finance",
+      "ACM Transactions on Economics and Computation"
+    ],
+    "authors": [
+      "Paul Embrechts",
+      "Alexander J. McNeil",
+      "Rüdiger Frey",
+      "Robert F. Engle",
+      "Philippe Jorion"
+    ],
+    "landmark_papers": [
+      {
+        "key": "artzner1999coherent",
+        "title": "Coherent Measures of Risk",
+        "authors": [
+          "Philippe Artzner",
+          "Freddy Delbaen",
+          "Jean-Marc Eber",
+          "David Heath"
+        ],
+        "year": 1999,
+        "journal": "Mathematical Finance",
+        "doi": "10.1111/1467-9965.00068"
+      },
+      {
+        "key": "acharya2017measuring",
+        "title": "Measuring Systemic Risk",
+        "authors": [
+          "Viral V. Acharya",
+          "Lasse Heje Pedersen",
+          "Thomas Philippon",
+          "Matthew Richardson"
+        ],
+        "year": 2017,
+        "journal": "The Review of Financial Studies",
+        "doi": "10.1093/rfs/hhw088"
+      }
+    ]
+  }
+]

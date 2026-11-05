@@ -1,0 +1,101 @@
+{
+  "__prompt__": "Role: Indonesian Voice Transformation & Morphosyntactic Diathesis Specialist.\nTask: Map active voice verbal lemmas (me- prefix family) to passive voice (di- prefix family) and vice versa for dynamic diathesis alternation in scientific discourse.\nNegative Prompting (Strict Alignment):\n- Ensure standard KBBI affixation rules.\n- Maintain RFC 8259 JSON validity.",
+  "active_to_passive": {
+    "menganalisis": "dianalisis",
+    "menginvestigasi": "diinvestigasi",
+    "mengidentifikasi": "diidentifikasi",
+    "menunjukkan": "ditunjukkan",
+    "mengindikasikan": "diindikasikan",
+    "membuktikan": "dibuktikan",
+    "menghasilkan": "dihasilkan",
+    "mengamati": "diamati",
+    "meneliti": "diteliti",
+    "menguji": "diuji",
+    "mengukur": "diukur",
+    "mengevaluasi": "dievaluasi",
+    "mengembangkan": "dikembangkan",
+    "menggunakan": "digunakan",
+    "memanfaatkan": "dimanfaatkan",
+    "menerapkan": "diterapkan",
+    "mengimplementasikan": "diimplementasikan",
+    "mengusulkan": "diusulkan",
+    "menemukan": "ditemukan",
+    "menjelaskan": "dijelaskan",
+    "mendefinisikan": "didefinisikan",
+    "menyimpulkan": "disimpulkan",
+    "memvalidasi": "divalidasi",
+    "mengoptimalkan": "dioptimalkan",
+    "mengklasifikasikan": "diklasifikasikan",
+    "mensintesis": "disintesis",
+    "memverifikasi": "diverifikasi",
+    "merekonstruksi": "direkonstruksi",
+    "mengelaborasi": "dielaborasi",
+    "mengestimasi": "diestimasi",
+    "mengintegrasikan": "diintegrasikan",
+    "mentransformasikan": "ditransformasikan",
+    "membandingkan": "dibandingkan",
+    "merumuskan": "dirumuskan"
+  },
+  "passive_to_active": {
+    "dianalisis": "menganalisis",
+    "diinvestigasi": "menginvestigasi",
+    "diidentifikasi": "mengidentifikasi",
+    "ditunjukkan": "menunjukkan",
+    "diindikasikan": "mengindikasikan",
+    "dibuktikan": "membuktikan",
+    "dihasilkan": "menghasilkan",
+    "diamati": "mengamati",
+    "diteliti": "meneliti",
+    "diuji": "menguji",
+    "diukur": "mengukur",
+    "dievaluasi": "mengevaluasi",
+    "dikembangkan": "mengembangkan",
+    "digunakan": "menggunakan",
+    "dimanfaatkan": "memanfaatkan",
+    "diterapkan": "menerapkan",
+    "diimplementasikan": "mengimplementasikan",
+    "diusulkan": "mengusulkan",
+    "ditemukan": "menemukan",
+    "dijelaskan": "menjelaskan",
+    "didefinisikan": "mendefinisikan",
+    "disimpulkan": "menyimpulkan",
+    "divalidasi": "memvalidasi",
+    "dioptimalkan": "mengoptimalkan",
+    "diklasifikasikan": "mengklasifikasikan",
+    "disintesis": "mensintesis",
+    "diverifikasi": "memverifikasi",
+    "direkonstruksi": "merekonstruksi",
+    "dielaborasi": "mengelaborasi",
+    "diestimasi": "mengestimasi",
+    "diintegrasikan": "mengintegrasikan",
+    "ditransformasikan": "mentransformasikan",
+    "dibandingkan": "membandingkan",
+    "dirumuskan": "merumuskan"
+  },
+  "prefix_rules": [
+    {
+      "active_prefix": "meng",
+      "passive_prefix": "di"
+    },
+    {
+      "active_prefix": "mem",
+      "passive_prefix": "di"
+    },
+    {
+      "active_prefix": "men",
+      "passive_prefix": "di"
+    },
+    {
+      "active_prefix": "meny",
+      "passive_prefix": "di"
+    },
+    {
+      "active_prefix": "menge",
+      "passive_prefix": "di"
+    },
+    {
+      "active_prefix": "me",
+      "passive_prefix": "di"
+    }
+  ]
+}

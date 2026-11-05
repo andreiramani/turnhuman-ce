@@ -1,0 +1,81 @@
+[
+  {
+    "__prompt__": "Role: Engineering & Fluid Dynamics Specialist.\nTask: Classify Navier-Stokes models, turbulence closures, boundary layers, and multiphase flows."
+  },
+  {
+    "subfield_id": "computational_fluid_dynamics_turbulence",
+    "subfield_name": "Computational Fluid Dynamics & Turbulence Modeling",
+    "discipline": "engineering_physics",
+    "keywords": [
+      "fluid dynamics",
+      "navier-stokes",
+      "computational fluid dynamics",
+      "turbulence",
+      "reynolds number",
+      "mach number",
+      "boundary layer",
+      "vorticity",
+      "direct numerical simulation",
+      "large eddy simulation",
+      "finite volume method",
+      "incompressible flow",
+      "compressible flow",
+      "shock wave"
+    ],
+    "topics": [
+      "Reynolds-Averaged Navier-Stokes Closure Schemes",
+      "Wall-Bounded Turbulent Boundary Layer Kinetics",
+      "Shock-Vortex Interactions in Hypersonic Regimes",
+      "Multiphase Surface-Tension Transport Phenomenon",
+      "Spectral Element Formulations for Convective Transport"
+    ],
+    "journals": [
+      "Journal of Fluids and Structures",
+      "Journal of Mathematical Fluid Mechanics",
+      "Journal of Non-Newtonian Fluid Mechanics",
+      "Computational Mechanics",
+      "Experimental Thermal and Fluid Science",
+      "Journal of Applied Fluid Mechanics",
+      "Journal of Fluids Engineering",
+      "Journal of Turbulence",
+      "Applied and Computational Mechanics",
+      "Journal of Applied and Computational Mechanics",
+      "Journal of Applied Mathematics and Computational Mechanics",
+      "Journal of the Serbian Society for Computational Mechanics",
+      "Nature Nanotechnology",
+      "European Journal of Computational Mechanics",
+      "IEEE Transactions on Applied Superconductivity"
+    ],
+    "authors": [
+      "Osborne Reynolds",
+      "George Gabriel Stokes",
+      "John von Neumann",
+      "Parviz Moin",
+      "Stephen B. Pope"
+    ],
+    "landmark_papers": [
+      {
+        "key": "pope2000turbulent",
+        "title": "Turbulent Flows",
+        "authors": [
+          "Stephen B. Pope"
+        ],
+        "year": 2000,
+        "journal": "Cambridge University Press",
+        "doi": "10.1017/CBO9780511840531"
+      },
+      {
+        "key": "kim1987turbulence",
+        "title": "Turbulence statistics in fully developed channel flow at low Reynolds number",
+        "authors": [
+          "John Kim",
+          "Parviz Moin",
+          "Robert Moser"
+        ],
+        "year": 1987,
+        "journal": "Journal of Fluid Mechanics",
+        "doi": "10.1017/S0022112087000892"
+      }
+    ]
+  }
+]

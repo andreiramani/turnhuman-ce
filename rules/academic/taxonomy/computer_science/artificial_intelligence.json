@@ -1,0 +1,298 @@
+[
+  {
+    "__prompt__": "Role: Academic Editor & Computer Science AI Taxonomy Specialist.\nTask: Define subfields, topical triggers, author pools, and prestigious indexed venues in Artificial Intelligence and Machine Learning for deterministic citation injection.\nNegative Prompting (Strict Alignment):\n- Do NOT include informal buzzwords.\n- Only include accredited IEEE, ACM, AAAI, NeurIPS, ICML, CVPR venues."
+  },
+  {
+    "subfield_id": "deep_learning_neural_architectures",
+    "subfield_name": "Deep Learning & Neural Architectures",
+    "discipline": "computer_science",
+    "keywords": [
+      "deep learning",
+      "neural network",
+      "transformer",
+      "attention mechanism",
+      "backpropagation",
+      "convolutional neural network",
+      "residual connections",
+      "latent representation",
+      "self-attention",
+      "feedforward",
+      "loss gradient",
+      "activation function",
+      "stochastic gradient descent"
+    ],
+    "topics": [
+      "Transformer Self-Attention Topologies",
+      "Residual Convolutional Learning",
+      "Self-Supervised Representation Learning",
+      "Implicit Neural Representations",
+      "Variational Autoencoders and Diffusion Models"
+    ],
+    "journals": [
+      "IEEE Transactions on Neural Networks and Learning Systems",
+      "IEEE Transactions on Machine Learning in Communications and Networking",
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "Nature Machine Intelligence",
+      "Neural Networks",
+      "International Journal of Machine Learning and Cybernetics",
+      "Machine Learning",
+      "Machine Learning with Applications",
+      "Advances in Artificial Intelligence and Machine Learning",
+      "APL Machine Learning",
+      "Machine Learning: Science and Technology",
+      "IEEE Transactions on Artificial Intelligence",
+      "IEEE Transactions on Circuits and Systems for Artificial Intelligence",
+      "Artificial Intelligence in Medicine",
+      "Babylonian Journal of Machine Learning"
+    ],
+    "authors": [
+      "Yann LeCun",
+      "Yoshua Bengio",
+      "Geoffrey Hinton",
+      "Ashish Vaswani",
+      "Kaiming He"
+    ],
+    "landmark_papers": [
+      {
+        "key": "vaswani2017attention",
+        "title": "Attention Is All You Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N. Gomez",
+          "Łukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "journal": "Advances in Neural Information Processing Systems (NeurIPS)",
+        "doi": "10.48550/arXiv.1706.03762"
+      },
+      {
+        "key": "he2016deep",
+        "title": "Deep Residual Learning for Image Recognition",
+        "authors": [
+          "Kaiming He",
+          "Xiangyu Zhang",
+          "Shaoqing Ren",
+          "Jian Sun"
+        ],
+        "year": 2016,
+        "journal": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "lecun2015deep",
+        "title": "Deep learning",
+        "authors": [
+          "Yann LeCun",
+          "Yoshua Bengio",
+          "Geoffrey Hinton"
+        ],
+        "year": 2015,
+        "journal": "Nature",
+        "doi": "10.1038/nature14539"
+      }
+    ]
+  },
+  {
+    "subfield_id": "natural_language_processing",
+    "subfield_name": "Natural Language Processing & Large Language Models",
+    "discipline": "computer_science",
+    "keywords": [
+      "natural language processing",
+      "large language model",
+      "tokenization",
+      "syntactic parsing",
+      "semantic representation",
+      "embedding",
+      "perplexity",
+      "masked language model",
+      "prompt engineering",
+      "sentiment analysis",
+      "machine translation",
+      "word2vec"
+    ],
+    "topics": [
+      "Pre-trained Bidirectional Language Representations",
+      "Autoregressive Sequence Modeling",
+      "Cross-Lingual Information Extraction",
+      "Syntactic Dependency Parsing",
+      "Vector Space Semantic Projection"
+    ],
+    "journals": [
+      "Language Resources and Evaluation",
+      "Natural Language and Linguistic Theory",
+      "Natural Language Processing",
+      "Natural Language Processing Journal",
+      "Natural Language Semantics",
+      "Speech Communication",
+      "Italian Journal of Computational Linguistics",
+      "IEEE Transactions on Medical Imaging",
+      "Language and Speech",
+      "Nature Biomedical Engineering",
+      "Brain and Language",
+      "Computational Linguistics",
+      "Transactions of the Association for Computational Linguistics",
+      "ACM Transactions on Accessible Computing",
+      "ACM Transactions on Computing for Healthcare"
+    ],
+    "authors": [
+      "Christopher D. Manning",
+      "Jacob Devlin",
+      "Dan Jurafsky",
+      "Yoav Goldberg",
+      "Tomas Mikolov"
+    ],
+    "landmark_papers": [
+      {
+        "key": "devlin2019bert",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "Jacob Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "Kristina Toutanova"
+        ],
+        "year": 2019,
+        "journal": "North American Chapter of the Association for Computational Linguistics (NAACL)",
+        "doi": "10.18653/v1/N19-1423"
+      },
+      {
+        "key": "pennington2014glove",
+        "title": "Glove: Global Vectors for Word Representation",
+        "authors": [
+          "Jeffrey Pennington",
+          "Richard Socher",
+          "Christopher D. Manning"
+        ],
+        "year": 2014,
+        "journal": "Empirical Methods in Natural Language Processing (EMNLP)",
+        "doi": "10.3115/v1/D14-1162"
+      },
+      {
+        "key": "mikolov2013efficient",
+        "title": "Efficient Estimation of Word Representations in Vector Space",
+        "authors": [
+          "Tomas Mikolov",
+          "Kai Chen",
+          "Greg Corrado",
+          "Jeffrey Dean"
+        ],
+        "year": 2013,
+        "journal": "International Conference on Learning Representations (ICLR Workshop)",
+        "doi": "10.48550/arXiv.1301.3781"
+      }
+    ]
+  },
+  {
+    "subfield_id": "reinforcement_learning_robotics",
+    "subfield_name": "Reinforcement Learning & Decision Systems",
+    "discipline": "computer_science",
+    "keywords": [
+      "reinforcement learning",
+      "Markov decision process",
+      "Q-learning",
+      "policy gradient",
+      "actor-critic",
+      "temporal difference",
+      "exploration vs exploitation",
+      "reward function",
+      "Bellman equation",
+      "Monte Carlo tree search",
+      "dynamic programming"
+    ],
+    "topics": [
+      "Deep Q-Networks in High-Dimensional State Spaces",
+      "Proximal Policy Optimization",
+      "Model-Based Predictive Control",
+      "Multi-Agent Cooperative Games",
+      "Continuous Actor-Critic Architectures"
+    ],
+    "journals": [
+      "IEEE Transactions on Field Robotics",
+      "IEEE Transactions on Medical Robotics and Bionics",
+      "IEEE Transactions on Robotics",
+      "ACM Transactions on Intelligent Systems and Technology",
+      "ACM Transactions on Interactive Intelligent Systems",
+      "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "IEEE Robotics and Automation Letters",
+      "IEEE Robotics and Automation Magazine",
+      "International Journal of Robotics Research",
+      "Journal of Field Robotics",
+      "Robotics and Autonomous Systems",
+      "Advanced Intelligent Systems",
+      "Autonomous Robots",
+      "Complex and Intelligent Systems",
+      "Human-Centric Intelligent Systems"
+    ],
+    "authors": [
+      "Richard S. Sutton",
+      "Andrew G. Barto",
+      "David Silver",
+      "Volodymyr Mnih",
+      "Pieter Abbeel"
+    ],
+    "landmark_papers": [
+      {
+        "key": "mnih2015human",
+        "title": "Human-level Control Through Deep Reinforcement Learning",
+        "authors": [
+          "Volodymyr Mnih",
+          "Koray Kavukcuoglu",
+          "David Silver",
+          "Andrei A. Rusu",
+          "Joel Veness",
+          "Marc G. Bellemare",
+          "Alex Graves",
+          "Martin Riedmiller",
+          "Andreas K. Fidjeland",
+          "Georg Ostrovski",
+          "Stig Petersen",
+          "Charles Beattie",
+          "Sadik Sadik",
+          "Anton Antonoglou",
+          "Helen King",
+          "Dharshan Kumaran",
+          "Daan Wierstra",
+          "Shane Legg",
+          "Demis Hassabis"
+        ],
+        "year": 2015,
+        "journal": "Nature",
+        "doi": "10.1038/nature14236"
+      },
+      {
+        "key": "silver2016mastering",
+        "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+        "authors": [
+          "David Silver",
+          "Aja Huang",
+          "Chris J. Maddison",
+          "Arthur Guez",
+          "Laurent Sifre",
+          "George van den Driessche",
+          "Julian Schrittwieser",
+          "Ioannis Antonoglou",
+          "Veda Panneershelvam",
+          "Marc Lanctot",
+          "Sander Dieleman",
+          "Dominik Grewe",
+          "John Nham",
+          "Nal Kalchbrenner",
+          "Ilya Sutskever",
+          "Timothy Lillicrap",
+          "Madeleine Leach",
+          "Koray Kavukcuoglu",
+          "Thore Graepel",
+          "Demis Hassabis"
+        ],
+        "year": 2016,
+        "journal": "Nature",
+        "doi": "10.1038/nature16961"
+      }
+    ]
+  }
+]

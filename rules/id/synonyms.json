@@ -1,0 +1,1749 @@
+{
+  "__prompt__": "Role: Indonesian Scholarly Lexical Database & KBBI Synonym Specialist (v3.0).\nTask: Provide academically vetted, formal KBBI synonym replacements with explicit Universal Dependencies POS tags, domain restrictions, and formal register weights.\nNegative Prompting (Strict Alignment):\n- Do NOT include colloquial slang or regional vernacular.\n- Strictly follow formal Indonesian (KBBI V / Ejaan Bahasa Indonesia yang Disempurnakan).\n- Maintain RFC 8259 JSON validity.",
+  "data": [
+    {
+      "word": "signifikan",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "bermakna",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "berarti",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "mencolok",
+          "weight": 0.75,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menganalisis",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengkaji",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menelaah",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "membedah",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menunjukkan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengindikasikan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "memperlihatkan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "merefleksikan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengindikasikan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menandakan",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "menyiratkan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "mengisyaratkan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "komprehensif",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menyeluruh",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "lengkap",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "holistis",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "efektif",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "berdaya guna",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "mangkus",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "tepat sasaran",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "efisien",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "tepat guna",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "sangkil",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "berdaya hemat",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "dampak",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "implikasi",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pengaruh",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "konsekuensi",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengimplementasikan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menerapkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menjalankan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "merealisasikan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "evaluasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penilaian",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "penaksiran",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "pengkajian",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengevaluasi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menilai",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "mengukur",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "menaksir",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "investigasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penyelidikan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "penelitian cermat",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "pengusutan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "metodologi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "kerangka metode",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "prosedur ilmiah",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "tata cara",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "fenomena",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "gejala",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "peristiwa",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "kejadian",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "fundamental",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mendasar",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "hakiki",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "pokok",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "krusial",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "sangat penting",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "vital",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "genting",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "relevan",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "gayut",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "sesuai",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "berkaitan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "paradigma",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "kerangka berpikir",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "sudut pandang",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "pola pikir",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "hipotesis",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "dugaan sementara",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "anggapan dasar",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "postulat",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengidentifikasi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengenali",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menemukenali",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "menandai",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "optimal",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "terbaik",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "maksimal",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "paling menguntungkan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengoptimalkan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "memaksimalkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "meningkatkan keterdayagunaan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "validasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "pengesahan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pembuktian keabsahan",
+          "weight": 0.88,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "memvalidasi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengesahkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menguji keabsahan",
+          "weight": 0.88,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "inovasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "kebaruan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pembaruan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "reka baru",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "empiris",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "berdasarkan fakta",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "berdasarkan pengalaman",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "kuantitatif",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "terukur secara numerik",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "berdasarkan jumlah",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "kualitatif",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "berdasarkan mutu",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "deskriptif mendalam",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "konstruksi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "struktur",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "bangunan konsep",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "variabel",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "peubah",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "faktor penentu",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "parameter",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "tolok ukur",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "indikator",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "patokan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "korelasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "hubungan timbal balik",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "keterkaitan",
+          "weight": 0.88,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "berkorelasi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "berhubungan timbal balik",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "saling terkait",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "klasifikasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "pengelompokan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pembagian sistematis",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengklasifikasikan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengelompokkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "membagi secara sistematis",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "faktor",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "unsur penentu",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "elemen",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "aspek",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "konsekuensi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "akibat",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "dampak turunan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "implementasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penerapan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pelaksanaan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menghasilkan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "membuahkan",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "menciptakan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "melahirkan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengurangi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mereduksi",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "meminimalkan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "memangkas",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "meningkatkan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengakselerasi",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "mempertinggi",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "memperbesar",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "konsisten",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "taat asas",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "selaras",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "ajek",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "fluktuasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "gejolak",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "perubahan naik-turun",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "ketidaktetapan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "sintesis",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "perpaduan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "penggabungan gagasan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mensintesis",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "memadukan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menggabungkan secara terpadu",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "eksplisit",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "gamblang",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "terang-terangan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "tegas tersurat",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "implisit",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "tersirat",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "terkandung",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "akurat",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "seksama",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "teliti",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "tepat",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "presisi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "ketepatan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "kecermatan tinggi",
+          "weight": 0.88,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "perspektif",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "sudut pandang",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "sudut tinjauan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "justifikasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "pembenaran",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "dasar alasan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menjustifikasi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "membenarkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "mengabsahkan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "konseptual",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "berdasar konsep",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "bersifat teoretis",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "teoretis",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "berdasarkan teori",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "ilmiah-abstrak",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "diversifikasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penganekaragaman",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "variasi bentuk",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "diskrepansi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "kesenjangan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "ketidaksesuaian",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "perbedaan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "anomali",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "keganjilan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "penyimpangan pola",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "keanehan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "dominan",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "paling menonjol",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "unggul",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "utama",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "esensial",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mendasar",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "hakiki",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "sangat pokok",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "prioritas",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "keutamaan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "hal terdahulu",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "kapabilitas",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "kemampuan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "kecakapan",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "daya dukung",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "signifikansi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "kebermaknaan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "arti penting",
+          "weight": 0.88,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "verifikasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "pemeriksaan kebenaran",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pengujian kembali",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "memverifikasi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "memeriksa kebenaran",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menguji keabsahan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "rekonstruksi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penataan kembali",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pembangunan ulang",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "merekonstruksi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menata kembali",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "membangun ulang",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "elaborasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penjelasan terperinci",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "penggarapan saksama",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengelaborasi",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "memperinci",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menjelaskan secara seksama",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "artikulasi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "pengungkapan lugas",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "penyampaian jelas",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mengartikulasikan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengungkapkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "menyampaikan secara terstruktur",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "distorsi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penyimpangan makna",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pemutarbalikan fakta",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "konvergensi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "pemusatan titik temu",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "perpaduan arah",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "divergensi",
+      "pos": "NOUN",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "penyebaran perbedaan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "pemencaran arah",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "spesifik",
+      "pos": "ADJ",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "khusus",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "khas",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "tertentu",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menyelidiki",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "mengusut",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "memeriksa",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "menginvestigasi",
+          "weight": 0.9,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menegaskan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menandaskan",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "menggarisbawahi",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "memastikan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menginduksikan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "merangsang timbulnya",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "menyebabkan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "mempertegas",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "memperjelas",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "memperkuat indikasi",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menyajikan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menghadirkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "memaparkan",
+          "weight": 0.88,
+          "register": "formal"
+        },
+        {
+          "term": "mempertunjukkan",
+          "weight": 0.8,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "memperlihatkan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menampakkan",
+          "weight": 0.85,
+          "register": "formal"
+        },
+        {
+          "term": "menunjukkan",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "merefleksikan",
+          "weight": 0.85,
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "word": "menuntaskan",
+      "pos": "VERB",
+      "domain": [
+        "all"
+      ],
+      "synonyms": [
+        {
+          "term": "menyelesaikan secara tuntas",
+          "weight": 0.9,
+          "register": "formal"
+        },
+        {
+          "term": "merampungkan",
+          "weight": 0.88,
+          "register": "formal"
+        }
+      ]
+    }
+  ]
+}

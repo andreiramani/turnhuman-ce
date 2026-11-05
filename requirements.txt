@@ -1,0 +1,18 @@
+# ==============================================================================
+# TurnHuman Community Edition (CE) - Runtime Dependencies
+# Target Runtime: Python 3.10+ (x64 Windows / Linux / macOS)
+# Architecture: 100% Programmatic, Deterministic Rule-Based, Zero Generative AI
+# ==============================================================================
+
+# Core Web Application & User Interface
+streamlit>=1.40.0,<2.0.0
+
+# Document & XML Processing Engines
+python-docx>=1.1.0
+lxml>=5.0.0
+
+# Natural Language Processing & Linguistic Engine
+spacy>=3.8.0,<4.0.0
+
+# Network & SSL Certificates for CrossRef DOI API
+pip-system-certs>=5.0

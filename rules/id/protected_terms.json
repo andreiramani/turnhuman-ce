@@ -1,0 +1,17 @@
+[
+  {
+    "__prompt__": "Role: Indonesian Academic Scientific Invariant & Protected Entity Curator.\nTask: Preserve official statutory, constitutional, institutional, and domain entities against synonym substitution or alteration.\nNegative Prompting (Strict Alignment):\n- Maintain RFC 8259 JSON validity."
+  },
+  "UUD 1945",
+  "Pancasila",
+  "Bhinneka Tunggal Ika",
+  "KBBI",
+  "BRIN",
+  "BPS",
+  "Kemendikbudristek",
+  "Kemenristekdikti",
+  "LIPI",
+  "BPPT",
+  "SNI",
+  "SKKNI"
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "__prompt__": "Role: Genomics & Precision Medicine Taxonomy Specialist.\nTask: Classify next-generation sequencing, CRISPR gene editing, GWAS, and transcriptomics."
+  },
+  {
+    "subfield_id": "functional_genomics_crispr",
+    "subfield_name": "Functional Genomics & Transcriptomic Regulation",
+    "discipline": "medical_life_sciences",
+    "keywords": [
+      "genomics",
+      "crispr-cas9",
+      "next-generation sequencing",
+      "rna-seq",
+      "gene expression",
+      "genome-wide association study",
+      "epigenetics",
+      "dna methylation",
+      "single-cell",
+      "variant calling",
+      "splicing",
+      "transcriptomics",
+      "gwas",
+      "polygenic score"
+    ],
+    "topics": [
+      "Single-Cell RNA-Sequencing Dimensionality Reduction",
+      "CRISPR-Cas9 Off-Target Cleavage Quantification",
+      "Genome-Wide Association Polygenic Risk Scores",
+      "Chromatin Accessibility Profiling via ATAC-Seq",
+      "Alternative Splicing Isoform Quantification"
+    ],
+    "journals": [
+      "Human Gene Therapy",
+      "Nature Genetics",
+      "Nature Reviews Genetics",
+      "G3: Genes, Genomes, Genetics",
+      "Molecular Genetics and Genomics",
+      "Nature Biotechnology",
+      "Nature Methods",
+      "Briefings in Functional Genomics",
+      "Human Molecular Genetics",
+      "CRISPR Journal",
+      "Gene Therapy",
+      "Nucleic Acids Research",
+      "Cytogenetic and Genome Research",
+      "Genome Research",
+      "Human Genetics and Genomics Advances"
+    ],
+    "authors": [
+      "Jennifer A. Doudna",
+      "Emmanuelle Charpentier",
+      "Feng Zhang",
+      "Eric S. Lander",
+      "Aviv Regev"
+    ],
+    "landmark_papers": [
+      {
+        "key": "jinek2012programmable",
+        "title": "A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+        "authors": [
+          "Martin Jinek",
+          "Krzysztof Chylinski",
+          "Ines Fonfara",
+          "Michael Hauer",
+          "Jennifer A. Doudna",
+          "Emmanuelle Charpentier"
+        ],
+        "year": 2012,
+        "journal": "Science",
+        "doi": "10.1126/science.1225829"
+      },
+      {
+        "key": "cong2013multiplex",
+        "title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+        "authors": [
+          "Le Cong",
+          "F. Ann Ran",
+          "David Cox",
+          "Shuailin Lin",
+          "Robert Barretto",
+          "Naomi Habib",
+          "Patrick D. Hsu",
+          "Xuebing Wu",
+          "Wenyan Jiang",
+          "Luciano A. Marraffini",
+          "Feng Zhang"
+        ],
+        "year": 2013,
+        "journal": "Science",
+        "doi": "10.1126/science.1231143"
+      }
+    ]
+  }
+]
