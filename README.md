@@ -43,28 +43,13 @@ Unlike commercial tools that wrap third-party Large Language Models (LLMs), Turn
 
 TurnHuman CE features 5 dedicated tools accessible via the modern interactive sidebar:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                      TURNHUMAN CE WORKSPACE SUITE                      │
-├────────────────────────┬───────────────────────────────────────────────┤
-│ 1. Text & Doc Humanizer│ Pipeline for .docx, .tex, and text.           │
-│ 2. Code Humanizer      │ Naturalizes comments; keeps code 100% intact. │
-│ 3. Citation Inserter   │ Official CrossRef DOI resolver & BibTeX/APA.  │
-│ 4. ZipPy Entropy Check │ Compression-based AI entropy & perplexity scan│
-│ 5. Similarity Compare  │ Synchronized diff viewer & n-gram highlights. │
-└────────────────────────┴───────────────────────────────────────────────┘
-```
-
-1. **Plagiarism & AI Humanizer (Text & Documents):**  
-   Transforms text across a modular pipeline. Supports direct text input and batch document processing (`.docx`, `.tex`, `.txt`). Features interactive side-by-side diffing and strict zero-expansion mode.
-2. **Code Comment Humanizer:**  
-   Stateful quote-aware comment parser for Python, C/C++, Java, JavaScript, and more. Polishes robotic comments according to 4 developer personas (Academic, Pragmatic, Junior, Senior) while leaving program logic 100% untouched.
-3. **Citation & BibTeX Inserter:**  
-   Resolves official CrossRef DOIs in real-time, fetching peer-reviewed publication metadata without hallucinations, and generating validated BibTeX, APA, and IEEE citations.
-4. **ZipPy Entropy Checker:**  
-   Scans text using trilateral compression-based entropy metrics to identify low-perplexity zones commonly flagged by institutional AI detectors.
-5. **Document Similarity Comparator:**  
-   Computes Winnowing fingerprints ($k=5, w=4$) and synchronized side-by-side token comparisons to highlight contiguous matching sentences between original drafts and revisions.
+| Feature & Tool | Overview |
+| :--- | :--- |
+| **1. Plagiarism & AI Humanizer** | Multi-stage linguistic pipeline for text and documents (`.docx`, `.tex`) with in-place formatting and zero word count expansion. |
+| **2. Code Comment Humanizer** | Naturalizes source code comments across multiple developer personas while keeping code logic 100% intact. |
+| **3. Citation & BibTeX Inserter** | Resolves verified peer-reviewed publications via live CrossRef DOIs into BibTeX, APA, and IEEE citations. |
+| **4. ZipPy Entropy Checker** | Compression-based entropy scanner that detects low-perplexity AI writing patterns. |
+| **5. Document Similarity Comparator** | Synchronized side-by-side diff viewer with Winnowing algorithms to highlight matching text segments. |
 
 ---
 
@@ -100,9 +85,10 @@ python -m spacy download en_core_web_sm
 
 ### 3. Launch the Application
 
-#### Option A: One-Click Windows Launchers (Recommended)
-* Double-click **`run.bat`** (Windows Command Prompt)
-* Or right-click and run with PowerShell: **`run.ps1`**
+#### Option A: One-Click Launchers (Recommended)
+* **Windows (Command Prompt):** Double-click **`run.bat`**
+* **Windows (PowerShell):** Right-click and run with PowerShell: **`run.ps1`**
+* **Linux & macOS:** Run **`./run.sh`** (or `bash run.sh`)
 
 #### Option B: Terminal Command
 ```bash
